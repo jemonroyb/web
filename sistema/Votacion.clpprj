@@ -1,0 +1,1784 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="D:\UniServerZ\www\adianti\template\Votacion.clpprj">
+	<settings><PM_URL><![CDATA[D:/UniServerZ/www/adianti/ismodes/]]></PM_URL><PM_HOME_URL><![CDATA[D:/UniServerZ/www/adianti/ismodes/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+	</lastopfiles>
+	<errors version="5.11">
+		<errfile name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\Rule\Rule.php">
+			<error val="48;100;56;100;303;2;"/>
+			<error val="43;108;51;108;303;2;"/>
+		</errfile>
+		<errfile name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\LineBox.php">
+			<error val="61;131;62;131;901;2;"/>
+		</errfile>
+		<errfile name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Common\ReedSolomonCodec.php">
+			<error val="96;157;97;157;901;2;"/>
+		</errfile>
+		<errfile name="D:\UniServerZ\www\adianti\template\app\templates\theme3\layout.html">
+			<error val="18;80;38;80;2002;1;"/>
+			<error val="24;105;44;105;2002;1;"/>
+			<error val="24;108;44;108;2002;1;"/>
+		</errfile>
+		<errfile name="D:\UniServerZ\www\adianti\template\app\templates\theme3\builder-menu.html">
+			<error val="54;9;74;9;2002;1;"/>
+			<error val="56;14;76;14;2002;1;"/>
+			<error val="58;19;78;19;2002;1;"/>
+			<error val="56;24;76;24;2002;1;"/>
+		</errfile>
+		<errfile name="D:\UniServerZ\www\adianti\template\app\resources\main.html">
+			<error val="48;18;68;18;2002;1;"/>
+			<error val="48;44;68;44;2002;1;"/>
+			<error val="48;73;68;73;2002;1;"/>
+			<error val="49;99;69;99;2002;1;"/>
+		</errfile>
+		<errfile name="D:\UniServerZ\www\adianti\template\app\model\log\SystemAccessLog.class.php">
+			<error val="48;55;49;55;901;2;"/>
+		</errfile>
+		<errfile name="D:\UniServerZ\www\adianti\template\app\lib\pdf\FPDF.php">
+			<error val="31;1622;34;1622;302;2;"/>
+			<error val="40;1698;43;1698;302;2;"/>
+		</errfile>
+	</errors>
+	<cakedata>
+	</cakedata>
+	<dplmenupath>
+	</dplmenupath><laravael>
+	</laravael><smartyassings>
+	</smartyassings><twigtemplate>
+	</twigtemplate><yiidata>
+	</yiidata>
+	<todoblock>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\lib\Cpdf.php">
+			<todo name="@todo is it still needed" pos="13;5006"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Adapter\CPDF.php">
+			<todo name="@todo use cache for BMP and GIF" pos="17;838"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Adapter\GD.php">
+			<todo name="@todo" pos="9;425"/>
+			<todo name="@todo" pos="9;510"/>
+			<todo name="@todo" pos="9;515"/>
+			<todo name="@todo" pos="9;523"/>
+			<todo name="@todo" pos="9;549"/>
+			<todo name="@todo" pos="9;560"/>
+			<todo name="@todo" pos="9;571"/>
+			<todo name="@todo" pos="9;580"/>
+			<todo name="@todo" pos="9;593"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Adapter\PDFLib.php">
+			<todo name="TODO: fetch PDFLib version information for the producer field" pos="9;197"/>
+			<todo name="TODO" pos="9;634"/>
+			<todo name="@todo" pos="9;857"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Css\AttributeTranslator.php">
+			<todo name="TODO: translate more form element attributes" pos="9;91"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Css\Stylesheet.php">
+			<todo name="TODO: bit of a hack attempt at matches support, currently only matches against elements" pos="25;675"/>
+			<todo name="TODO" pos="29;700"/>
+			<todo name="TODO: If we use a context node can we remove the leading dot" pos="17;959"/>
+			<todo name="TODO: When the media query logic is fully developed we should not apply the Style when any of the me" pos="29;1116"/>
+			<todo name="Todo:Reason is unknown" pos="25;1336"/>
+			<todo name="Todo: As above, do we need to replace php or file to an empty protocol for local files" pos="13;1477"/>
+			<todo name="@todo: fix the regex so that it works everytime" pos="13;1558"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Dompdf.php">
+			<todo name="todo use the $encoding variable" pos="8;411"/>
+			<todo name="@todo Take the quirksmode into account" pos="9;462"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FontMetrics.php">
+			<todo name="@todo Make sure this cache is efficient before enabling it" pos="9;262"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameDecorator\ListBulletImage.php">
+			<todo name="Todo: Where can the box size be extended" pos="9;67"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameReflower\Block.php">
+			<todo name="TODO: this is a WIP for handling clear/float frames that are in between inline frames" pos="13;682"/>
+			<todo name="TODO handle when floating elements don't fit" pos="17;749"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameReflower\Text.php">
+			<todo name="@todo support &lt;shy&gt;, &lt;wbr&gt;" pos="9;119"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Helpers.php">
+			<todo name="TODO: use $context to define additional curl options" pos="13;846"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Positioner\ListBullet.php">
+			<todo name="Todo:" pos="9;64"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Renderer\AbstractRenderer.php">
+			<todo name="TODO: Solve rendering where one corner is beveled (radius == 0), one corner isn't." pos="9;546"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Renderer\TableCell.php">
+			<todo name="@todo Add support for outlines here" pos="9;52"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\pablodalloglio\spreadsheet_excel_writer\Spreadsheet\Excel\Writer\Format.php">
+			<todo name="TODO: Unicode support" pos="45;453"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\pablodalloglio\spreadsheet_excel_writer\Spreadsheet\Excel\Writer\Parser.php">
+			<todo name="TODO: use real error codes" pos="9;599"/>
+			<todo name="TODO: Unicode support" pos="30;642"/>
+			<todo name="TODO: possible class value 0,1,2 check Formula.pm" pos="9;680"/>
+			<todo name="TODO: use real error codes" pos="13;689"/>
+			<todo name="TODO: use real error codes" pos="13;710"/>
+			<todo name="TODO: use real error codes" pos="13;798"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\pablodalloglio\spreadsheet_excel_writer\Spreadsheet\Excel\Writer\Workbook.php">
+			<todo name="TODO: assign real error codes" pos="13;382"/>
+			<todo name="TODO: check this works for a lot of strings (&gt; 8224 bytes)" pos="14;599"/>
+			<todo name="TODO: Unicode data should only be split on char (2 byte)" pos="18;1327"/>
+			<todo name="TODO: not good for performance" pos="10;1468"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\pablodalloglio\spreadsheet_excel_writer\Spreadsheet\Excel\Writer\Worksheet.php">
+			<todo name="ToDo: Let the error actually have an effect somewhere" pos="13;507"/>
+			<todo name="TODO: add data validity" pos="10;643"/>
+			<todo name="TODO use real error codes" pos="9;1383"/>
+			<todo name="TODO: Unicode support" pos="47;2705"/>
+			<todo name="TODO: Unicode support" pos="47;2733"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\EOT\File.php">
+			<todo name="TODO Read font data ..." pos="5;60"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\Table\Type\cmap.php">
+			<todo name="@todo Only CMAP version 4 and 12" pos="7;62"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\Table\Type\post.php">
+			<todo name="TODO" pos="9;66"/>
+			<todo name="TODO" pos="9;74"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\TrueType\File.php">
+			<todo name="@todo" pos="23;226"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Style.php">
+			<todo name="TODO cm, mm, pc, in, etc" pos="9;394"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Surface\CPdf.php">
+			<todo name="@todo is it still needed" pos="13;4204"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Surface\SurfaceCpdf.php">
+			<todo name="TODO: Implement beginPath() method." pos="9;115"/>
+			<todo name="@todo use cache for BMP and GIF" pos="17;219"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Surface\SurfaceGmagick.php">
+			<todo name="TODO: Implement beginPath() method." pos="9;96"/>
+			<todo name="TODO: Implement drawImage() method." pos="9;127"/>
+			<todo name="TODO: Implement quadraticCurveTo() method." pos="9;165"/>
+			<todo name="TODO: Implement setFont() method." pos="9;305"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Surface\SurfacePDFLib.php">
+			<todo name="TODO: Implement beginPath() method." pos="9;113"/>
+			<todo name="TODO: Implement drawImage() method." pos="9;144"/>
+			<todo name="TODO: Implement setFont() method." pos="9;419"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Tag\Path.php">
+			<todo name="TODO: optimize this" pos="21;341"/>
+			<todo name="TODO: optimize this" pos="21;361"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\src\PHPMailer.php">
+			<todo name="@TODO would be nice to use php://temp streams here" pos="17;2598"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Table.php">
+			<todo name="TODO add source code comments" pos="8;736"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\PHPRtfLiteTest.php">
+			<todo name="todo Implement testSave()." pos="8;151"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\PHPRtfLite\Container\SectionTest.php">
+			<todo name="todo Implement testWriteText()." pos="8;184"/>
+			<todo name="todo Implement testWriteTextHyperlink()." pos="8;195"/>
+			<todo name="todo Implement testEmptyParagraph()." pos="8;206"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\PHPRtfLite\TableTest.php">
+			<todo name="todo Implement testSetBorderForCellRange()." pos="8;289"/>
+			<todo name="todo Implement testMergeCellRange()." pos="8;300"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\Property\Selector.php">
+			<todo name="@todo should exclude \# as well as &quot;#&quot;" pos="6;63"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\Sabberworm\CSS\ParserTest.php">
+			<todo name="TODO Support comments in selectors." pos="3;537"/>
+		</todofile>
+	</todoblock>
+	<filescache>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\tburry\pquery\third party\jsminplus.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\tburry\pquery\pQuery.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\tburry\pquery\IQuery.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\tburry\pquery\ganon.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\tburry\pquery\gan_xml2array.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\tburry\pquery\gan_tokenizer.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\tburry\pquery\gan_selector_html.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\tburry\pquery\gan_parser_html.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\tburry\pquery\gan_node_html.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\tburry\pquery\gan_formatter.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\tburry\pquery\autoload.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\Sabberworm\CSS\RuleSet\LenientParsingTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\Sabberworm\CSS\RuleSet\DeclarationBlockTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\Sabberworm\CSS\CSSList\DocumentTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\Sabberworm\CSS\CSSList\AtRuleBlockListTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\Sabberworm\CSS\ParserTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\Sabberworm\CSS\OutputFormatTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\whitespace.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\webkit.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\values.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\url.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\unicode.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\specificity.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\slashed.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\nested.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\namespaces.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\line-numbers.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\inner-color.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\important.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\ie.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\ie-hacks.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\functions.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\expand-shorthands.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\docuwiki.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\create-shorthands.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\comments.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\colortest.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\case-insensitivity.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\atrules.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\2readme.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\1readme.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\-tobedone.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\-fault-tolerance.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\-end-token.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\-end-token-2.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\-empty.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\-charset-in-block.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\files\-charset-after-rule.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\quickdump.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\phpunit.xml" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\tests\bootstrap.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\Value\ValueList.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\Value\Value.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\Value\URL.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\Value\Size.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\Value\RuleValueList.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\Value\PrimitiveValue.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\Value\CSSString.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\Value\CSSFunction.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\Value\Color.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\RuleSet\RuleSet.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\RuleSet\DeclarationBlock.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\RuleSet\AtRuleSet.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\Rule\Rule.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\Property\Selector.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\Property\Import.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\Property\CSSNamespace.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\Property\Charset.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\Property\AtRule.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\Parsing\UnexpectedTokenException.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\Parsing\SourceException.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\Parsing\OutputException.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\CSSList\KeyFrame.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\CSSList\Document.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\CSSList\CSSList.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\CSSList\CSSBlockList.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\CSSList\AtRuleBlockList.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\Comment\Commentable.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\Comment\Comment.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\Settings.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\Renderable.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\Parser.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\lib\Sabberworm\CSS\OutputFormat.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\phpunit.xml" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\sabberworm\php-css-parser\.travis.yml" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\picqer\php-barcode-generator\tests\verified-files\081231723897-code128.html" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\picqer\php-barcode-generator\tests\BarcodeTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\picqer\php-barcode-generator\src\Exceptions\UnknownTypeException.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\picqer\php-barcode-generator\src\Exceptions\InvalidLengthException.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\picqer\php-barcode-generator\src\Exceptions\InvalidFormatException.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\picqer\php-barcode-generator\src\Exceptions\InvalidCheckDigitException.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\picqer\php-barcode-generator\src\Exceptions\InvalidCharacterException.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\picqer\php-barcode-generator\src\Exceptions\BarcodeException.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\picqer\php-barcode-generator\src\BarcodeGeneratorSVG.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\picqer\php-barcode-generator\src\BarcodeGeneratorPNG.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\picqer\php-barcode-generator\src\BarcodeGeneratorJPG.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\picqer\php-barcode-generator\src\BarcodeGeneratorHTML.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\picqer\php-barcode-generator\src\BarcodeGenerator.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\picqer\php-barcode-generator\phpunit.xml" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\picqer\php-barcode-generator\generate-verified-files.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\picqer\php-barcode-generator\.travis.yml" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\SampleTest\Utf8SampleTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\SampleTest\TableSampleTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\SampleTest\ParagraphsInTablesSampleTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\SampleTest\ParagraphsFontsSampleTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\SampleTest\MergedCellsSampleTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\SampleTest\ListsSampleTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\SampleTest\ImagesSampleTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\SampleTest\HelloWorldSampleTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\SampleTest\FootnotesSampleTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\SampleTest\DocumentSectionsSampleTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\SampleTest\ChessTournamentSampleTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\PHPRtfLite\Table\RowTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\PHPRtfLite\Table\CellTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\PHPRtfLite\Element\HyperlinkTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\PHPRtfLite\DocHead\FontTableTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\PHPRtfLite\DocHead\ColorTableTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\PHPRtfLite\Container\SectionTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\PHPRtfLite\Container\HeaderTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\PHPRtfLite\Border\FormatTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\PHPRtfLite\WriterTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\PHPRtfLite\TableTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\PHPRtfLite\ParFormatTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\PHPRtfLite\ImageTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\PHPRtfLite\FootnoteTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\PHPRtfLite\FontTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\PHPRtfLite\ContainerTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\PHPRtfLite\BorderTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\PHPRtfLiteTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\PHPRtfLiteSampleTestCase.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\tests\bootstrap.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\samples\sources\utf8.txt" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\samples\utf8.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\samples\tables.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\samples\table_in_header.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\samples\paragraphs_in_tables.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\samples\paragraphs_fonts.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\samples\nested_tables.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\samples\merged_cells.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\samples\lists.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\samples\images.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\samples\image_from_strings.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\samples\hello_world.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\samples\formfields.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\samples\footnotes.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\samples\document_sections.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\samples\chess_tournament.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Writer\String.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Writer\Interface.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Table\Row.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Table\Nested.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Table\Column.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Table\Cell.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\List\Numbering.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\List\Enumeration.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Image\Wmf.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Image\Gd.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\FormField\Text.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\FormField\Dropdown.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\FormField\Checkbox.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Element\Plain.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Element\Hyperlink.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\DocHead\Note.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\DocHead\FontTable.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\DocHead\ColorTable.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Container\Section.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Container\Header.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Container\Footer.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Container\Base.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Border\Format.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Utf8.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Unit.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Table.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\StreamOutput.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\ParFormat.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\List.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Image.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\FormField.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Footnote.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Font.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Exception.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Endnote.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Element.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Container.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Border.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite\Autoloader.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\lib\PHPRtfLite.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_static\underscore.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_static\sidebar.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_static\searchtools.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_static\pygments.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_static\jquery.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_static\doctools.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_static\default.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_static\basic.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_sources\tutorials\introduction.txt" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_sources\tutorials\introducation.txt" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_sources\tables.txt" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_sources\styling.txt" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_sources\sections.txt" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_sources\page-layouts.txt" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_sources\license.txt" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_sources\introduction.txt" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_sources\intro.txt" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_sources\index.txt" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_sources\images.txt" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_sources\header-footer.txt" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_sources\getting-started.txt" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_sources\formfields.txt" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_sources\formatting.txt" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_sources\footnotes-endnotes.txt" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_sources\feature-overview.txt" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_sources\enumerations-numberings.txt" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_sources\document-settings.txt" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\_sources\bug-feature.txt" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\tables.html" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\styling.html" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\sections.html" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\searchindex.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\search.html" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\page-layouts.html" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\license.html" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\introduction.html" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\index.html" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\images.html" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\header-footer.html" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\getting-started.html" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\genindex.html" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\formfields.html" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\formatting.html" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\footnotes-endnotes.html" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\feature-overview.html" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\enumerations-numberings.html" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\document-settings.html" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phprtflite\phprtflite\docs\html\bug-feature.html" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\src\SMTP.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\src\POP3.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\src\PHPMailer.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\src\OAuth.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\src\Exception.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-zh_cn.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-zh.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-vi.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-uk.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-tr.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-sv.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-sl.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-sk.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-ru.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-rs.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-ro.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-pt_br.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-pt.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-pl.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-nl.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-nb.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-ms.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-lv.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-lt.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-ko.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-ka.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-ja.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-it.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-id.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-hu.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-hr.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-hi.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-he.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-gl.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-fr.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-fo.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-fi.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-fa.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-et.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-es.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-eo.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-el.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-de.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-da.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-cs.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-ch.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-ca.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-bg.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-be.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-ba.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-az.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-ar.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\language\phpmailer.lang-am.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phpmailer\phpmailer\get_oauth_token.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\tests\Svg\StyleTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Tag\UseTag.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Tag\Text.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Tag\StyleTag.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Tag\Stop.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Tag\Shape.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Tag\Rect.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Tag\RadialGradient.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Tag\Polyline.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Tag\Polygon.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Tag\Path.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Tag\LinearGradient.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Tag\Line.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Tag\Image.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Tag\Group.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Tag\Ellipse.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Tag\ClipPath.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Tag\Circle.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Tag\Anchor.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Tag\AbstractTag.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Surface\SurfacePDFLib.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Surface\SurfaceInterface.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Surface\SurfaceGmagick.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Surface\SurfaceCpdf.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Surface\CPdf.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Gradient\Stop.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Style.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\Document.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\Svg\DefaultStyle.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\src\autoload.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\phpunit.xml" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-svg-lib\.travis.yml" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\tests\FontLib\FontTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\WOFF\TableDirectoryEntry.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\WOFF\Header.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\WOFF\File.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\TrueType\TableDirectoryEntry.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\TrueType\Header.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\TrueType\File.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\TrueType\Collection.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\Table\Type\post.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\Table\Type\os2.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\Table\Type\nameRecord.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\Table\Type\name.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\Table\Type\maxp.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\Table\Type\loca.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\Table\Type\kern.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\Table\Type\hmtx.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\Table\Type\hhea.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\Table\Type\head.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\Table\Type\glyf.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\Table\Type\cmap.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\Table\Table.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\Table\DirectoryEntry.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\OpenType\TableDirectoryEntry.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\OpenType\File.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\Glyph\OutlineSimple.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\Glyph\OutlineComposite.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\Glyph\OutlineComponent.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\Glyph\Outline.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\Exception\FontNotFoundException.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\EOT\Header.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\EOT\File.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\Header.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\Font.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\EncodingMap.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\BinaryStream.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\Autoloader.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\src\FontLib\AdobeFontMetrics.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\index.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\.travis.yml" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\phenx\php-font-lib\.htaccess" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\pablodalloglio\spreadsheet_excel_writer\Spreadsheet\Excel\Writer\Worksheet.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\pablodalloglio\spreadsheet_excel_writer\Spreadsheet\Excel\Writer\Workbook.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\pablodalloglio\spreadsheet_excel_writer\Spreadsheet\Excel\Writer\Validator.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\pablodalloglio\spreadsheet_excel_writer\Spreadsheet\Excel\Writer\Parser.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\pablodalloglio\spreadsheet_excel_writer\Spreadsheet\Excel\Writer\Format.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\pablodalloglio\spreadsheet_excel_writer\Spreadsheet\Excel\Writer\BIFFwriter.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\pablodalloglio\ole\OLE\PPS\Root.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\pablodalloglio\ole\OLE\PPS\File.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\pablodalloglio\ole\OLE\PPS.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\pablodalloglio\ole\OLE\ChainedBlockStream.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\pablodalloglio\ole\OLE.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\firebase\php-jwt\src\SignatureInvalidException.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\firebase\php-jwt\src\JWT.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\firebase\php-jwt\src\ExpiredException.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\firebase\php-jwt\src\BeforeValidException.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Renderer\Text.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Renderer\TableRowGroup.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Renderer\TableCell.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Renderer\ListBullet.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Renderer\Inline.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Renderer\Image.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Renderer\Block.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Renderer\AbstractRenderer.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Positioner\TableRow.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Positioner\TableCell.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Positioner\NullPositioner.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Positioner\ListBullet.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Positioner\Inline.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Positioner\Fixed.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Positioner\Block.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Positioner\AbstractPositioner.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Positioner\Absolute.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Image\Cache.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameReflower\Text.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameReflower\TableRowGroup.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameReflower\Table.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameReflower\Page.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameReflower\NullFrameReflower.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameReflower\ListBullet.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameReflower\Inline.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameReflower\Image.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameReflower\Block.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameReflower\AbstractFrameReflower.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameDecorator\Text.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameDecorator\TableRowGroup.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameDecorator\TableRow.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameDecorator\TableCell.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameDecorator\Table.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameDecorator\Page.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameDecorator\NullFrameDecorator.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameDecorator\ListBulletImage.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameDecorator\ListBullet.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameDecorator\Inline.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameDecorator\Image.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameDecorator\Block.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Frame\FrameTreeList.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Frame\FrameTreeIterator.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Frame\FrameTree.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Frame\FrameListIterator.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Frame\FrameList.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Frame\Factory.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Exception\ImageException.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Css\Stylesheet.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Css\Style.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Css\Color.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Css\AttributeTranslator.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Adapter\PDFLib.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Adapter\GD.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Adapter\CPDF.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Renderer.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\PhpEvaluator.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Options.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\LineBox.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\JavascriptEmbedder.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Helpers.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Frame.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\FontMetrics.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Exception.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Dompdf.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Cellmap.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\CanvasFactory.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Canvas.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\src\Autoloader.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\lib\res\html.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\lib\html5lib\TreeBuilder.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\lib\html5lib\Tokenizer.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\lib\html5lib\Parser.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\lib\html5lib\InputStream.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\lib\html5lib\Data.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\lib\fonts\mustRead.html" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\lib\fonts\dompdf_font_family_cache.dist.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\lib\Cpdf.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\dompdf\dompdf\phpcs.xml" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\composer\include_paths.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\composer\ClassLoader.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\composer\autoload_static.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\composer\autoload_real.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\composer\autoload_psr4.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\composer\autoload_namespaces.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\composer\autoload_classmap.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\tests\BaconQrCode\Renderer\Text\TextTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\tests\BaconQrCode\Renderer\Text\HtmlTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\tests\BaconQrCode\Encoder\MatrixUtilTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\tests\BaconQrCode\Encoder\MaskUtilTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\tests\BaconQrCode\Encoder\EncoderTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\tests\BaconQrCode\Common\VersionTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\tests\BaconQrCode\Common\ReedSolomonCodecTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\tests\BaconQrCode\Common\ModeTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\tests\BaconQrCode\Common\FormatInformationTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\tests\BaconQrCode\Common\ErrorCorrectionLevelTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\tests\BaconQrCode\Common\BitUtilsTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\tests\BaconQrCode\Common\BitMatrixTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\tests\BaconQrCode\Common\BitArrayTest.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\tests\phpunit.xml" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\tests\bootstrap.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Renderer\Text\Plain.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Renderer\Text\Html.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Renderer\Image\Decorator\FinderPattern.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Renderer\Image\Decorator\DecoratorInterface.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Renderer\Image\Svg.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Renderer\Image\RendererInterface.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Renderer\Image\Png.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Renderer\Image\Eps.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Renderer\Image\AbstractRenderer.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Renderer\Color\Rgb.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Renderer\Color\Gray.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Renderer\Color\ColorInterface.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Renderer\Color\Cmyk.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Renderer\RendererInterface.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Exception\WriterException.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Exception\UnexpectedValueException.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Exception\RuntimeException.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Exception\OutOfBoundsException.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Exception\InvalidArgumentException.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Exception\ExceptionInterface.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Encoder\QrCode.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Encoder\MatrixUtil.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Encoder\MaskUtil.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Encoder\Encoder.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Encoder\ByteMatrix.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Encoder\BlockPair.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Common\Version.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Common\ReedSolomonCodec.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Common\Mode.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Common\FormatInformation.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Common\ErrorCorrectionLevel.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Common\EcBlocks.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Common\EcBlock.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Common\CharacterSetEci.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Common\BitUtils.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Common\BitMatrix.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Common\BitArray.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Common\AbstractEnum.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\src\BaconQrCode\Writer.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\Module.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\autoload_register.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\autoload_function.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\autoload_classmap.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\bacon\bacon-qr-code\.travis.yml" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\vendor\autoload.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\tmp\local_votacion.sql.txt" crc="1536453671"/>
+		<file name="D:\UniServerZ\www\adianti\template\tmp\.htaccess" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\math\translationstrategy\TranslationStrategyInterface.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\math\translationstrategy\ShuntingYard.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\math\Token.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\math\Parser.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\math\Operator.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\math\Lexer.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-zh-TW.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-zh-HK.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-zh-CN.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-vi.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-uk.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-tr.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-th.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-ta.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-sv.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-sr.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-sr-SR.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-sq.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-sl.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-sk.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-ru.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-ro.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-rm.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-pt.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-pt-BR.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-pl.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-no.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-nl.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-ms.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-ml.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-lv.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-lt.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-kz.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-ko.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-ja.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-it.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-is.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-id.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-hy.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-hu.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-hr.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-he.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-gl.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-fr.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-fr-CH.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-fo.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-fi.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-fa.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-eu.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-et.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-es.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-eo.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-en-NZ.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-en-GB.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-en-AU.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-el.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-de.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-da.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-cs.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-ca.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-bs.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-bg.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-az.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-ar.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-ar-DZ.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery.ui.datepicker-af.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\i18n\jquery-ui-i18n.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\select2_locale_pt.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\select2.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\select2.min.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\select2.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\select2.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\select2-bootstrap.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\moment.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery.treeview.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery.treeview.min.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery.treeview.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery.treeview.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery.scrollto.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery.imask.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery.editinplace.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery.editinplace.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery.dataTables.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery.dataTables.min.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery.blockUI.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery.blockUI.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery.autocomplete.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery.autocomplete.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery-ui.theme.min.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery-ui.theme.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery-ui.structure.min.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery-ui.structure.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery-ui.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery-ui.min.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery-ui.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery-ui.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery-plugins.txt" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery-plugins.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery-plugins.min.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery-plugins.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery-migrate-3.0.0.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\jquery-licence.txt" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\fullcalendar.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\fullcalendar.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\fullcalendar.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\fullcalendar-pt.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\dataTables.responsive.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\jquery\dataTables.responsive.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\scss\font-awesome.scss" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\scss\_variables.scss" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\scss\_stacked.scss" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\scss\_screen-reader.scss" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\scss\_rotated-flipped.scss" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\scss\_path.scss" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\scss\_mixins.scss" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\scss\_list.scss" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\scss\_larger.scss" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\scss\_icons.scss" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\scss\_fixed-width.scss" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\scss\_core.scss" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\scss\_bordered-pulled.scss" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\scss\_animated.scss" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\less\variables.less" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\less\stacked.less" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\less\screen-reader.less" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\less\rotated-flipped.less" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\less\path.less" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\less\mixins.less" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\less\list.less" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\less\larger.less" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\less\icons.less" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\less\font-awesome.less" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\less\fixed-width.less" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\less\core.less" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\less\bordered-pulled.less" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\less\animated.less" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\css\font-awesome.min.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\font-awesome\css\font-awesome.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.zh-TW.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.zh-CN.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.vi.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.uz-latn.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.uz-cyrl.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.uk.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.tr.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.th.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.tg.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.ta.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.sw.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.sv.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.sr.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.sr-latin.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.sq.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.sl.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.sk.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.si.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.ru.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.rs.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.rs-latin.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.ro.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.pt.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.pt-BR.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.pl.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.oc.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.no.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.nl.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.nl-BE.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.nb.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.ms.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.mn.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.mk.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.me.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.lv.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.lt.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.kr.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.ko.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.km.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.kk.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.kh.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.ka.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.ja.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.it.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.it-CH.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.is.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.id.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.hy.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.hu.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.hr.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.hi.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.he.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.gl.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.fr.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.fr-CH.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.fo.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.fi.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.fa.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.eu.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.et.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.es.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.eo.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.en-ZA.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.en-NZ.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.en-IE.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.en-GB.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.en-CA.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.en-AU.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.el.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.de.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.da.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.cy.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.cs.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.ca.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.bs.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.br.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.bn.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.bg.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.az.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.ar.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker.ar-tn.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\locales\bootstrap-datepicker-en-CA.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-zh-TW.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-zh-TW.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-zh-CN.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-zh-CN.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-vi-VN.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-vi-VN.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-uk-UA.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-uk-UA.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-tr-TR.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-tr-TR.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-th-TH.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-th-TH.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-ta-IN.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-ta-IN.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-sv-SE.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-sv-SE.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-sr-RS.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-sr-RS.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-sr-RS-Latin.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-sr-RS-Latin.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-sl-SI.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-sl-SI.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-sk-SK.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-sk-SK.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-ru-RU.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-ru-RU.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-ro-RO.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-ro-RO.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-pt-PT.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-pt-PT.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-pt-BR.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-pt-BR.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-pl-PL.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-pl-PL.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-nl-NL.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-nl-NL.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-nb-NO.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-nb-NO.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-mn-MN.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-mn-MN.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-lt-LV.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-lt-LV.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-lt-LT.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-lt-LT.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-ko-KR.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-ko-KR.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-ja-JP.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-ja-JP.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-it-IT.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-it-IT.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-id-ID.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-id-ID.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-hu-HU.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-hu-HU.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-hr-HR.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-hr-HR.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-he-IL.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-he-IL.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-gl-ES.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-gl-ES.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-fr-FR.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-fr-FR.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-fi-FI.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-fi-FI.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-fa-IR.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-fa-IR.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-es-EU.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-es-EU.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-es-ES.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-es-ES.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-el-GR.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-el-GR.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-de-DE.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-de-DE.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-da-DK.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-da-DK.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-cs-CZ.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-cs-CZ.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-ca-ES.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-ca-ES.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-bg-BG.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-bg-BG.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-ar-AR.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\lang\summernote-ar-AR.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\summernote.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\summernote.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\fontawesome-iconpicker.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\fontawesome-iconpicker.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\bootstrap.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\bootstrap.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\bootstrap-plugins.txt" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\bootstrap-plugins.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\bootstrap-plugins.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\bootstrap-datetimepicker.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\bootstrap-datepicker.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\bootstrap-datepicker.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\bootstrap-colorpicker.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\bootstrap-colorpicker.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\js\bootbox.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-zh-TW.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-zh-TW.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-zh-CN.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-zh-CN.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-vi-VN.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-vi-VN.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-uk-UA.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-uk-UA.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-tr-TR.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-tr-TR.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-th-TH.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-th-TH.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-ta-IN.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-ta-IN.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-sv-SE.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-sv-SE.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-sr-RS.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-sr-RS.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-sr-RS-Latin.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-sr-RS-Latin.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-sl-SI.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-sl-SI.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-sk-SK.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-sk-SK.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-ru-RU.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-ru-RU.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-ro-RO.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-ro-RO.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-pt-PT.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-pt-PT.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-pt-BR.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-pt-BR.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-pl-PL.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-pl-PL.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-nl-NL.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-nl-NL.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-nb-NO.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-nb-NO.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-mn-MN.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-mn-MN.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-lt-LV.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-lt-LV.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-lt-LT.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-lt-LT.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-ko-KR.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-ko-KR.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-ja-JP.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-ja-JP.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-it-IT.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-it-IT.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-id-ID.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-id-ID.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-hu-HU.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-hu-HU.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-hr-HR.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-hr-HR.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-he-IL.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-he-IL.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-gl-ES.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-gl-ES.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-fr-FR.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-fr-FR.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-fi-FI.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-fi-FI.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-fa-IR.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-fa-IR.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-es-EU.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-es-EU.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-es-ES.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-es-ES.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-el-GR.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-el-GR.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-de-DE.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-de-DE.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-da-DK.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-da-DK.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-cs-CZ.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-cs-CZ.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-ca-ES.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-ca-ES.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-bg-BG.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-bg-BG.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-ar-AR.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\lang\summernote-ar-AR.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\summernote.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\fontawesome-iconpicker.min.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\fontawesome-iconpicker.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\bootstrap.vertical-tabs.min.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\bootstrap.vertical-tabs.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\bootstrap.min.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\bootstrap.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\bootstrap-theme.min.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\bootstrap-theme.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\bootstrap-datetimepicker.min.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\bootstrap-datepicker.min.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\bootstrap-datepicker.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\bootstrap-colorpicker.min.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\bootstrap-colorpicker.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\bootstrap\css\boostrap-plugins.min.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\wrapper\BootstrapNotebookWrapper.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\wrapper\BootstrapFormWrapper.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\wrapper\BootstrapFormBuilder.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\wrapper\BootstrapDatagridWrapper.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\wrapper\AdiantiUIBuilder.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\wrapper\AdiantiPDFDesigner.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\wrapper\TQuickNotebookForm.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\wrapper\TQuickGrid.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\wrapper\TQuickForm.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\wrapper\TDBUniqueSearch.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\wrapper\TDBSortList.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\wrapper\TDBSelect.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\wrapper\TDBSeekButton.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\wrapper\TDBRadioGroup.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\wrapper\TDBMultiSearch.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\wrapper\TDBEntry.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\wrapper\TDBCombo.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\wrapper\TDBCheckGroup.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\util\TXMLBreadCrumb.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\util\TTreeView.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\util\TTextDisplay.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\util\TSourceCode.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\util\TProgressBar.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\util\TImage.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\util\THyperLink.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\util\TFullCalendar.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\util\TExceptionView.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\util\TDropDown.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\util\TCalendar.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\util\TBreadCrumb.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\util\TActionLink.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\template\THtmlRenderer.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\menu\TMenuParser.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\menu\TMenuItem.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\menu\TMenuBar.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\menu\TMenu.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TUniqueSearch.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TTime.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TText.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TSpinner.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TSortList.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TSlider.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TSelect.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TSeekButton.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TRadioGroup.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TRadioButton.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TPassword.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TNumeric.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TMultiSearch.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TMultiFile.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TMultiField.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TMultiEntry.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TLabel.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TIcon.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\THtmlEditor.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\THidden.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TFormSeparator.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TForm.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TFile.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TFieldList.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TField.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TEntry.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TDateTime.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TDate.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TComboCombined.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TCombo.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TColor.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TCheckGroup.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TCheckButton.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\TButton.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\AdiantiWidgetInterface.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\form\AdiantiFormInterface.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\dialog\TQuestion.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\dialog\TMessage.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\dialog\TInputDialog.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\dialog\TAlert.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\datagrid\TPageNavigation.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\datagrid\TDataGridColumn.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\datagrid\TDataGridActionGroup.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\datagrid\TDataGridAction.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\datagrid\TDataGrid.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\container\TVBox.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\container\TTableRow.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\container\TTableCell.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\container\TTable.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\container\TScroll.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\container\TPanelGroup.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\container\TPanel.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\container\TNotebook.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\container\TJQueryDialog.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\container\THBox.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\container\TFrame.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\container\TExpander.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\base\TStyle.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\base\TScript.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\base\TElement.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\widget\.htaccess" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\validator\TRequiredValidator.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\validator\TNumericValidator.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\validator\TMinValueValidator.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\validator\TMinLengthValidator.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\validator\TMaxValueValidator.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\validator\TMaxLengthValidator.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\validator\TFieldValidator.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\validator\TEmailValidator.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\validator\TCPFValidator.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\validator\TCNPJValidator.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\service\AdiantiUploaderService.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\service\AdiantiRecordService.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\service\AdiantiMultiSearchService.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\service\AdiantiAutocompleteService.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\registry\TSession.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\registry\TAPCache.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\registry\AdiantiRegistryInterface.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\log\TLoggerXML.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\log\TLoggerTXT.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\log\TLoggerSTD.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\log\TLoggerHTML.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\log\TLogger.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\log\AdiantiLoggerInterface.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\twindow\twindow.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\ttreeview\ttreeview.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\ttable\ttable.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tspinner\tspinner.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tspinner\tspinner.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tsourcecode\tsourcecode.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tsortlist\tsortlist.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tsortlist\tsortlist.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tslider\tslider.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tselect\tselect.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tseekbutton\tseekbutton.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tseekbutton\tseekbutton.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tscroll\tscroll.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tradiogroup\tradiogroup.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tpagenavigation\tpagenavigation.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tooltip\tooltip.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tnotebook\tnotebook.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tmultisearch\tmultisearch.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tmultisearch\tmultisearch.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tmultifile\tmultifile.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tmultifield\tmultifield.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tmultifield\tmultifield.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tmultientry\tmultientry.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tmenubar\tmenubar.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tmenu\tmenu.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tlabel\tlabel.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tjquerydialog\tjquerydialog.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\ticon\ticon.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\ticon\ticon.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\thtmleditor\thtmleditor.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tfullcalendar\tfullcalendar.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tframe\tframe.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tform\tform.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tform\tform.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tfile\tfile.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tfile\tfile.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tfieldlist\tfieldlist.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tfield\tfield.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tfield\tfield.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\texpander\texpander.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tentry\tentry.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tdialog\tdialog.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tdialog\tdialog.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tdbuniquesearch\tdbuniquesearch.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tdbmultisearch\tdbmultisearch.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tdbentry\tdbentry.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tdatetime\tdatetime.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tdatetime\tdatetime.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tdate\tdate.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tdate\tdate.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tdatagrid\tdatagrid.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tdatagrid\tdatagrid.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tcombocombined\tcombocombined.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tcombo\tcombo.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tcombo\tcombo.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tcolor\tcolor.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tcolor\tcolor.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tcheckgroup\tcheckgroup.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tcalendar\tcalendar.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tbutton\tbutton.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\tbreadcrumb\tbreadcrumb.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\talert\talert.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\components.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\components.min.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\components.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\components.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\adianti.min.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\adianti.min.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\adianti.js" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\include\adianti.css" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\database\TTransaction.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\database\TSqlUpdate.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\database\TSqlStatement.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\database\TSqlSelect.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\database\TSqlMultiInsert.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\database\TSqlInsert.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\database\TSqlDelete.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\database\TRepository.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\database\TRecord.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\database\TFilter.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\database\TExpression.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\database\TDatabase.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\database\TCriteria.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\database\TConnection.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\database\.htaccess" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\core\AdiantiTemplateParser.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\core\AdiantiCoreTranslator.php" crc="1536791054"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\core\AdiantiCoreLoader.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\core\AdiantiCoreApplication.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\core\AdiantiClassMap.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\core\AdiantiApplicationLoader.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\core\AdiantiApplicationConfig.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\control\TWindow.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\control\TPage.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\control\TAction.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\control\.htaccess" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\base\TStandardSeek.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\base\TStandardList.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\base\TStandardFormList.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\base\TStandardForm.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\base\AdiantiStandardListTrait.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\base\AdiantiStandardFormTrait.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\base\AdiantiStandardFormListTrait.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\base\AdiantiStandardControlTrait.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\base\AdiantiMasterDetailTrait.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\base\AdiantiFileSaveTrait.php" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\lib\adianti\base\.htaccess" crc="1535937180"/>
+		<file name="D:\UniServerZ\www\adianti\template\files\documents\.htaccess" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\files\.htaccess" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\view\.htaccess" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\plugins\node-waves\waves.min.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\plugins\node-waves\waves.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\plugins\node-waves\waves.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\plugins\node-waves\waves.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\plugins\moment\moment-with-locales.min.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\plugins\jquery-slimscroll\jquery.slimscroll.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\plugins\bootstrap-material-datetimepicker\js\bootstrap-material-datetimepicker.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\plugins\bootstrap-material-datetimepicker\css\bootstrap-material-datetimepicker.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\plugins\bootstrap-material-datetimepicker\index.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\plugins\animate-css\animate.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\plugins\animate-css\animate.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\widgets\infobox\infobox-5.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\widgets\infobox\infobox-4.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\widgets\infobox\infobox-3.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\widgets\infobox\infobox-2.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\widgets\infobox\infobox-1.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\ui\tooltips-popovers.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\ui\sortable-nestable.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\ui\range-sliders.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\ui\notifications.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\ui\modals.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\ui\dialogs.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\ui\animations.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\tables\jquery-datatable.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\tables\editable-table.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\medias\image-gallery.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\maps\jvectormap.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\maps\google.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\forms\form-wizard.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\forms\form-validation.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\forms\editors.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\forms\basic-form-elements.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\forms\advanced-form-elements.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\examples\sign-up.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\examples\sign-in.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\examples\forgot-password.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\charts\sparkline.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\charts\morris.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\charts\jquery-knob.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\charts\flot.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\charts\chartjs.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\cards\colored.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\cards\basic.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\pages\index.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\sweetalert.min.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\script.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\helpers.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\demo.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\custom.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\admin.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\js\admin-login.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-yellow.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-yellow.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-teal.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-teal.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-red.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-red.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-purple.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-purple.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-pink.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-pink.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-orange.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-orange.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-lime.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-lime.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-light-blue.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-light-blue.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-indigo.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-indigo.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-grey.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-grey.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-green.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-green.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-deep-purple.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-deep-purple.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-deep-orange.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-deep-orange.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-cyan.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-cyan.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-brown.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-brown.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-blue.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-blue.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-blue-grey.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-blue-grey.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-black.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-black.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-amber.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\theme-amber.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\all-themes.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\themes\all-themes.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\sweetalert.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\style.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\style.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\css\materialize.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\login.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\libraries.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\layout.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\builder-menu.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme4\application.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\js\pages\dashboard2.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\js\pages\dashboard.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\js\demo.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\js\custom.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\js\app.min.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\js\app.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\skin-yellow.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\skin-yellow.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\skin-yellow-light.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\skin-yellow-light.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\skin-red.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\skin-red.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\skin-red-light.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\skin-red-light.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\skin-purple.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\skin-purple.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\skin-purple-light.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\skin-purple-light.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\skin-green.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\skin-green.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\skin-green-light.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\skin-green-light.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\skin-blue.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\skin-blue.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\skin-blue-light.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\skin-blue-light.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\skin-black.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\skin-black.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\skin-black-light.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\skin-black-light.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\_all-skins.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\skins\_all-skins.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\AdminLTE.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\css\AdminLTE.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\login.html" crc="1537085296"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\libraries.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\layout.html" crc="1537084208"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\builder-menu.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme3\application.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme2\metisMenu\metisMenu.min.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme2\metisMenu\metisMenu.min.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme2\metisMenu\metisMenu.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme2\metisMenu\metisMenu.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme2\sb-admin-2.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme2\sb-admin-2.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme2\red.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme2\login.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme2\libraries.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme2\layout.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme2\green.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme2\gray.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme2\application.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme1\login.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme1\libraries.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme1\layout.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\templates\theme1\application.css" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\service\system\SystemPageService.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\service\system\SystemDocumentUploaderService.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\service\system\SystemDatabaseInformationService.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\service\auth\LdapAuthenticationService.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\map\nanoscroller.css" crc="1537069231"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\map\mapsvg.min.js" crc="1537069231"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\map\mapsvg.css" crc="1537069232"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\map\jquery.nanoscroller.min.js" crc="1537069229"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\map\jquery.mousewheel.min.js" crc="1537069229"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\map\jquery.mousewheel.js" crc="1537069228"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\map\jquery.js" crc="1537069234"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\map\jquery-1.7.2.js" crc="1537069230"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\js\pages\dashboard2.js" crc="1537036973"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\js\pages\dashboard.js" crc="1537036973"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\js\demo.js" crc="1537036965"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\js\adminlte.min.js" crc="1537036965"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\js\adminlte.js" crc="1537036965"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\skin-yellow.min.css" crc="1537036971"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\skin-yellow.css" crc="1537036970"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\skin-yellow-light.min.css" crc="1537036970"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\skin-yellow-light.css" crc="1537036970"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\skin-red.min.css" crc="1537036970"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\skin-red.css" crc="1537036970"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\skin-red-light.min.css" crc="1537036970"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\skin-red-light.css" crc="1537036970"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\skin-purple.min.css" crc="1537036970"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\skin-purple.css" crc="1537036969"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\skin-purple-light.min.css" crc="1537036969"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\skin-purple-light.css" crc="1537036969"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\skin-green.min.css" crc="1537036969"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\skin-green.css" crc="1537036969"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\skin-green-light.min.css" crc="1537036969"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\skin-green-light.css" crc="1537036969"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\skin-blue.min.css" crc="1537036969"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\skin-blue.css" crc="1537036969"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\skin-blue-light.min.css" crc="1537036968"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\skin-blue-light.css" crc="1537036968"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\skin-black.min.css" crc="1537036968"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\skin-black.css" crc="1537036968"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\skin-black-light.min.css" crc="1537036968"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\skin-black-light.css" crc="1537036968"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\_all-skins.min.css" crc="1537036971"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\skins\_all-skins.css" crc="1537036971"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\alt\AdminLTE-without-plugins.min.css" crc="1537036967"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\alt\AdminLTE-without-plugins.css" crc="1537036967"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\alt\AdminLTE-select2.min.css" crc="1537036967"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\alt\AdminLTE-select2.css" crc="1537036967"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\alt\AdminLTE-fullcalendar.min.css" crc="1537036966"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\alt\AdminLTE-fullcalendar.css" crc="1537036966"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\alt\AdminLTE-bootstrap-social.min.css" crc="1537036966"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\alt\AdminLTE-bootstrap-social.css" crc="1537036966"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\AdminLTE.min.css" crc="1537036957"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\dist\css\AdminLTE.css" crc="1537036956"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\chart\src\Chart.Radar.js" crc="1537040471"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\chart\src\Chart.PolarArea.js" crc="1537040471"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\chart\src\Chart.Line.js" crc="1537040471"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\chart\src\Chart.Doughnut.js" crc="1537040471"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\chart\src\Chart.Core.js" crc="1537040471"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\chart\src\Chart.Bar.js" crc="1537040471"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\chart\samples\radar.html" crc="1537040469"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\chart\samples\polar-area.html" crc="1537040469"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\chart\samples\pie.html" crc="1537040469"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\chart\samples\pie-customTooltips.html" crc="1537040469"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\chart\samples\line.html" crc="1537040468"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\chart\samples\line-customTooltips.html" crc="1537040468"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\chart\samples\doughnut.html" crc="1537040468"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\chart\samples\bar.html" crc="1537040468"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\chart\gulpfile.js" crc="1537040465"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\chart\Chart.min.js" crc="1537040465"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\chart\Chart.js" crc="1537040464"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\chart\.travis.yml" crc="1537040462"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\system_welcome_pt.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\system_welcome_en.html" crc="1536968374"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\system_reset_password.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\system_profile.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\system_notification_view.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\system_message_form_view.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\system_message_folders.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\system_input_fuse_search.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\system_database_browser.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\public.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\page_sample.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\main.html" crc="1537086298"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\google_pie_chart.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\google_line_chart.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\google_bar_chart.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\resources\checkbox.html" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\reports\.htaccess" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\log\SystemSqlLog.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\log\SystemChangeLogTrait.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\log\SystemChangeLog.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\log\SystemAccessLog.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\communication\SystemNotification.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\communication\SystemMessage.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\communication\SystemDocumentUser.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\communication\SystemDocumentGroup.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\communication\SystemDocumentCategory.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\communication\SystemDocument.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\admin\SystemUserUnit.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\admin\SystemUserProgram.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\admin\SystemUserGroup.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\admin\SystemUser.class.php" crc="1536910056"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\admin\SystemUnit.class.php" crc="1536720577"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\admin\SystemProgram.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\admin\SystemPreference.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\admin\SystemPermission.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\admin\SystemGroupProgram.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\admin\SystemGroup.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\admin\.htaccess" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\WebMessage.class.php" crc="1505806518"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\ViewPersoneroMesa.class.php" crc="1537059377"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\ViewMesaLocal.class.php" crc="1537037249"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\ViewMesa.class.php" crc="1537037189"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\ViewLocalDistrito.class.php" crc="1537040838"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\ViewLocal.class.php" crc="1537037896"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\Mesa.class.php" crc="1537036116"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\Local.class.php" crc="1537056327"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\Lista.class.php" crc="1537055698"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\model\.htaccess" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\widget\TAccordion.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\validator\TDateValidator.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\util\TMail.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\util\TApplicationFileSessionHandler.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\util\MailService.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\util\ApplicationTranslator.class.php" crc="1536969578"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\util\AdiantiRouteTranslator.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\util\.htaccess" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\reports\TTableWriterXLS.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\reports\TTableWriterRTF.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\reports\TTableWriterPDF.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\reports\TTableWriterHTML.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\reports\TAdiantiTableRow.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\reports\TAdiantiTableCell.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\reports\TAdiantiTable.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\reports\TAdiantiStyle.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\reports\TAdiantiElement.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\reports\ITableWriter.iface.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\pdf\font\makefont\ttfparser.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\pdf\font\makefont\makefont.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\pdf\font\zapfdingbats.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\pdf\font\timesi.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\pdf\font\timesbi.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\pdf\font\timesb.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\pdf\font\times.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\pdf\font\symbol.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\pdf\font\helveticai.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\pdf\font\helveticabi.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\pdf\font\helveticab.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\pdf\font\helvetica.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\pdf\font\courieri.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\pdf\font\courierbi.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\pdf\font\courierb.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\pdf\font\courier.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\pdf\license.txt" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\pdf\FPDF.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\menu\AdiantiMenuBuilder.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\include\fuse\fuse.min.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\include\application.js" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\html\AdiantiHTMLDocumentParser.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\lib\barcode\AdiantiBarcodeDocumentGenerator.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\forms\.htaccess" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\database\permission.xml" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\database\permission.sql" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\database\permission-update.sql" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\database\log.sql" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\database\communication.sql" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\database\.htaccess" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\public\PublicView.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\personero\RegistroNuevaMesa.class.php" crc="1536532199"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\personero\ListaPersoneroMesas.class.php" crc="1537068459"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\personero\FormActualizacionMesa.class.php" crc="1537070074"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\log\SystemSqlLogList.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\log\SystemChangeLogView.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\log\SystemAccessLogStats.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\log\SystemAccessLogList.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\distrito\ListLocalesVotacionDistrito.class.php" crc="1537080570"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\coordinador_local\ListaMesasLocal.class.php" crc="1537083843"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\coordinador_local\FormMesaLocal.class.php" crc="1537057727"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\coordinador_local\FormEditCoordinadorLocal.class.php" crc="1537085664"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\coordinador\Panel.class.php" crc="1537040493"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\coordinador\ListProvincias.class.php" crc="1536470742"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\coordinador\ListMesas.class.php" crc="1536733329"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\coordinador\ListLocales.class.php" crc="1536516180"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\coordinador\FormMesa.class.php" crc="1537060145"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\coordinador\FormLocal.class.php" crc="1537055174"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\communication\SystemSharedDocumentList.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\communication\SystemNotificationList.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\communication\SystemNotificationFormView.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\communication\SystemMessageList.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\communication\SystemMessageFormView.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\communication\SystemMessageForm.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\communication\SystemDocumentUploadForm.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\communication\SystemDocumentList.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\communication\SystemDocumentForm.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\communication\SystemDocumentCategoryFormList.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\administrador\ListaDistritos.class.php" crc="1537056647"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\administrador\FormDistrito.class.php" crc="1537054070"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\SystemUserList.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\SystemUserForm.class.php" crc="1536910190"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\SystemUnitList.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\SystemUnitForm.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\SystemTableList.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\SystemSupportForm.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\SystemSQLPanel.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\SystemRequestPasswordResetForm.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\SystemRegistrationForm.class.php" crc="1536910669"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\SystemProgramList.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\SystemProgramForm.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\SystemProfileView.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\SystemProfileForm.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\SystemPreferenceForm.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\SystemPHPInfoView.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\SystemPHPErrorLogView.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\SystemPasswordResetForm.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\SystemPageUpdate.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\SystemPageBatchUpdate.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\SystemModulesCheckView.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\SystemMenuUpdate.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\SystemGroupList.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\SystemGroupForm.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\SystemDataBrowser.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\SystemDatabaseExplorer.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\LoginForm.class.php" crc="1537085244"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\admin\EmptyPage.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\WelcomeView.class.php" crc="1536532944"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\SearchInputBox.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\SearchBox.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\NotificationList.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\MessageList.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\FormPersona.class.php" crc="1537086223"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\Estadistica.class.php" crc="1537084538"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\CommonPage.class.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\control\.htaccess" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\config\sample.ini" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\config\permission.ini" crc="1536452694"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\config\log.ini" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\config\ldap.ini" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\config\database.ini" crc="1536179492"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\config\communication.ini" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\config\application.ini" crc="1537085401"/>
+		<file name="D:\UniServerZ\www\adianti\template\app\config\.htaccess" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\StadisticRestServer.php" crc="1537072196"/>
+		<file name="D:\UniServerZ\www\adianti\template\rest.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\menu.xml" crc="1537052494"/>
+		<file name="D:\UniServerZ\www\adianti\template\menu-dist.xml" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\init.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\index.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\engine.php" crc="1537071129"/>
+		<file name="D:\UniServerZ\www\adianti\template\download.php" crc="1535667240"/>
+		<file name="D:\UniServerZ\www\adianti\template\cmd.php" crc="1535667240"/>
+	</filescache>
+</project>

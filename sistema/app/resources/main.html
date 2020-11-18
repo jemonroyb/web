@@ -1,0 +1,378 @@
+<!--[main]-->
+<div class="row">
+	<div class="col-lg-3 col-xs-12">
+		<!-- small box -->
+		<div class="small-box bg-aqua" style="background: #265397 !important;">
+			<div class="inner">
+				<h3 id="total_votos_region">
+					Sumando...
+				</h3>
+
+				<p>
+					Total Votos Ismodes
+				</p>
+			</div>
+			<div class="icon">
+				<i class="ion ion-easel">
+				</i>
+			</div>
+			<div style="text-align: center">
+				<img width="100%" src="app/resources/ismodes.jpg"/>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="col-lg-9 col-xs-12">
+		<!-- MAP & BOX PANE -->
+		<div class="box box-primary">
+			<div class="box-header with-border">
+				<h3 class="box-title">
+					Votos en provincias
+				</h3>
+			</div>
+			<!-- /.box-header -->
+			<div class="box-body no-padding">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+
+						<div class="chart-container"  style="position: relative; height:40vh; width:80vw">
+							<canvas id="myChart">
+							</canvas>
+						</div>
+
+
+						<script>
+							// Global Options
+							Chart.defaults.global.defaultFontFamily = 'Arial';
+							Chart.defaults.global.defaultFontSize = 12;
+							Chart.defaults.global.defaultFontColor = '#777';
+
+
+							var massPopChart = set_chart_bar('myChart',[0],['votos']);
+
+							var prov1 = set_chart_bar('prov1',[0],['votos']);
+							var prov2 = set_chart_bar('prov2',[0],['votos']);
+							var prov3 = set_chart_bar('prov3',[0],['votos']);
+							var prov4 = set_chart_bar('prov4',[0],['votos']);
+							var prov5 = set_chart_bar('prov5',[0],['votos']);
+							var prov6 = set_chart_bar('prov6',[0],['votos']);
+							var prov7 = set_chart_bar('prov7',[0],['votos']);
+							var prov8 = set_chart_bar('prov8',[0],['votos']);
+
+
+
+							function set_chart_bar(idobjeto,xdata,xlabels)
+							{
+								var myChart = document.getElementById(idobjeto).getContext('2d');
+								myChart.canvas.parentNode.style.height = '100%';
+								myChart.canvas.parentNode.style.width = '100%';
+
+								var massPopChart = new Chart(myChart,
+									{
+										type:'horizontalBar', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
+										data:
+										{
+											labels:xlabels,
+											datasets:[
+												{
+													label:'Votos',
+													data:xdata,
+													backgroundColor:'#265397',
+													borderWidth:0,
+													borderColor:'#777',
+													hoverBorderWidth:0,
+													hoverBorderColor:'#000'
+												}]
+										},
+										options:
+										{
+											title:
+											{
+												display:false,
+												text:'Cantidad de votos en provincias',
+												fontSize:20
+											},
+											legend:
+											{
+												display:false,
+												position:'right',
+												labels:
+												{
+													fontColor:'#000'
+												}
+											},
+											layout:
+											{
+												padding:
+												{
+													left:5,
+													right:0,
+													bottom:0,
+													top:0
+												}
+											}
+										}
+									});
+								return massPopChart;
+							}
+
+							function update_votos_region()
+							{
+
+								$.ajax(
+									{
+										data:"h="+Math.random(),
+										type: "GET",
+										url: "StadisticRestServer.php?class=Estadistica&method=resumen_votos_region",
+										dataType: 'json',
+										success: function(respuesta)
+										{
+											$('#total_votos_region').html(respuesta.data['total_votos_region']);
+
+											massPopChart.data.datasets[0].data=respuesta.data['provincias_votos'];
+											massPopChart.data.labels = respuesta.data['provincias'];
+											massPopChart.update();
+
+
+
+											prov1.data.datasets[0].data=respuesta.data['distritos_votos'][2];
+											prov1.data.labels =respuesta.data['distritos'][2];
+											prov1.update();
+
+											prov2.data.datasets[0].data=respuesta.data['distritos_votos'][3];
+											prov2.data.labels =respuesta.data['distritos'][3];
+											prov2.update();
+
+											prov3.data.datasets[0].data=respuesta.data['distritos_votos'][6];
+											prov3.data.labels =respuesta.data['distritos'][6];
+											prov3.update();
+
+											prov4.data.datasets[0].data=respuesta.data['distritos_votos'][7];
+											prov4.data.labels =respuesta.data['distritos'][7];
+											prov4.update();
+
+											prov5.data.datasets[0].data=respuesta.data['distritos_votos'][8];
+											prov5.data.labels =respuesta.data['distritos'][8];
+											prov5.update();
+
+											prov6.data.datasets[0].data=respuesta.data['distritos_votos'][9];
+											prov6.data.labels =respuesta.data['distritos'][9];
+											prov6.update();
+
+											prov7.data.datasets[0].data=respuesta.data['distritos_votos'][10];
+											prov7.data.labels =respuesta.data['distritos'][10];
+											prov7.update();
+
+											prov8.data.datasets[0].data=respuesta.data['distritos_votos'][11];
+											prov8.data.labels =respuesta.data['distritos'][11];
+											prov8.update();
+
+										}
+									});
+
+
+
+
+
+
+
+							}
+
+							update_votos_region()
+							//setInterval( update_votos_region, 10000);
+
+
+
+						</script>
+					</div>
+					<!-- /.col -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.box-body -->
+		</div>
+	</div>
+
+</div>
+
+
+<div class="row">
+	<div class="col-lg-6 col-xs-12">
+		<!-- MAP & BOX PANE -->
+		<div class="box box-primary">
+			<div class="box-header with-border">
+				<h3 class="box-title">
+					AREQUIPA
+				</h3>
+			</div>
+			<!-- /.box-header -->
+			<div class="box-body no-padding">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+
+						<div class="chart-container" style="position: relative; height:40vh; width:550px">
+							<canvas id="prov1">
+							</canvas>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-6 col-xs-12">
+		<!-- MAP & BOX PANE -->
+		<div class="box box-primary">
+			<div class="box-header with-border">
+				<h3 class="box-title">
+					ISLAY
+				</h3>
+			</div>
+			<!-- /.box-header -->
+			<div class="box-body no-padding">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+
+						<div class="chart-container"  style="position: relative; height:40vh; width:80vw">
+							<canvas id="prov2">
+							</canvas>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-6 col-xs-12">
+		<!-- MAP & BOX PANE -->
+		<div class="box box-primary">
+			<div class="box-header with-border">
+				<h3 class="box-title">
+					CAMANÁ
+				</h3>
+			</div>
+			<!-- /.box-header -->
+			<div class="box-body no-padding">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+
+						<div class="chart-container"  style="position: relative; height:40vh; width:80vw">
+							<canvas id="prov3">
+							</canvas>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-6 col-xs-12">
+		<!-- MAP & BOX PANE -->
+		<div class="box box-primary">
+			<div class="box-header with-border">
+				<h3 class="box-title">
+					CARAVELÍ
+				</h3>
+			</div>
+			<!-- /.box-header -->
+			<div class="box-body no-padding">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+
+						<div class="chart-container"  style="position: relative; height:60vh; width:80vw">
+							<canvas id="prov4">
+							</canvas>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-6 col-xs-12">
+		<!-- MAP & BOX PANE -->
+		<div class="box box-primary">
+			<div class="box-header with-border">
+				<h3 class="box-title">
+					CASTILLA
+				</h3>
+			</div>
+			<!-- /.box-header -->
+			<div class="box-body no-padding">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+
+						<div class="chart-container"  style="position: relative; height:40vh; width:80vw">
+							<canvas id="prov5">
+							</canvas>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-6 col-xs-12">
+		<!-- MAP & BOX PANE -->
+		<div class="box box-primary">
+			<div class="box-header with-border">
+				<h3 class="box-title">
+					CAYLLOMA
+				</h3>
+			</div>
+			<!-- /.box-header -->
+			<div class="box-body no-padding">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+
+						<div class="chart-container"  style="position: relative; height:40vh; width:80vw">
+							<canvas id="prov6">
+							</canvas>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-6 col-xs-12">
+		<!-- MAP & BOX PANE -->
+		<div class="box box-primary">
+			<div class="box-header with-border">
+				<h3 class="box-title">
+					CONDESUYOS
+				</h3>
+			</div>
+			<!-- /.box-header -->
+			<div class="box-body no-padding">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+
+						<div class="chart-container"  style="position: relative; height:40vh; width:80vw">
+							<canvas id="prov7">
+							</canvas>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-6 col-xs-12">
+		<!-- MAP & BOX PANE -->
+		<div class="box box-primary">
+			<div class="box-header with-border">
+				<h3 class="box-title">
+					LA UNIÓN
+				</h3>
+			</div>
+			<!-- /.box-header -->
+			<div class="box-body no-padding">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+
+						<div class="chart-container"  style="position: relative; height:40vh; width:80vw">
+							<canvas id="prov8">
+							</canvas>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--[/main]-->

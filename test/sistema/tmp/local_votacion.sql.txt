@@ -1,0 +1,2 @@
+INSERT INTO local_votacion (idlocal_votacion,nombre_local,direccion,distrito,observacion) VALUES (1,'Nombre del local ','sdfsdf','dfsdfs','');
+INSERT INTO local_votacion (idlocal_votacion,nombre_local,direccion,distrito,observacion) VALUES (2,'NOMBRE','DASD',6,'DASDD');

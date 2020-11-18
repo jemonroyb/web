@@ -1,0 +1,2315 @@
+@charset "utf-8";
+
+/* TIPOGRAFIA DEL TEXTO -------------------- */
+
+@font-face {
+	font-family: "Gotham Bold";
+	src: url("fonts/Gotham/Gotham-Bold.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Gotham Book";
+	src: url("fonts/Gotham/Gotham-Book.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Gotham Medium";
+	src: url("fonts/Gotham/Gotham-Medium.otf") format("opentype");
+}
+
+/* CSS DOCUMENT ---------------------------- */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	background: #000000;
+}
+
+/* ESTILO LINKS ---------------------------- */
+
+.ubicacion:link {
+	font-family: "Gotham Bold"; 
+	font-size: 12px;
+	color: #131032;
+	text-decoration: none;
+}
+
+.ubicacion:visited {
+	text-decoration: none;
+	color: #131032;
+}
+.ubicacion:hover {
+	text-decoration: none;
+	color: #666666;
+}
+.ubicacion:active {
+	text-decoration: none;
+	color: #131032;
+}
+
+.masinfo:link {
+	font-family: 'Gotham Bold'; 
+	font-size: 12px;
+	color: #131032;
+	text-decoration: none;
+}
+
+.masinfo:visited {
+	text-decoration: none;
+	color: #131032;
+}
+.masinfo:hover {
+	text-decoration: none;
+	color: #666666;
+}
+.masinfo:active {
+	text-decoration: none;
+	color: #131032;
+}
+
+/* ESTILOS EN TEXTO ------------------------ */
+
+h1 {
+	font-family: "Gotham Bold";
+	font-size: 26px; 
+	color: #FFF;
+	text-align: left;
+	margin: 0;
+	position: absolute;
+	bottom: 30px;
+	left: 50px;
+}
+
+h2 {
+	width: 100%;
+	height: 100px;
+	font-family: "Gotham Bold";
+	font-size: 74px; 
+	color: #FFF;
+	text-align: left;
+	font-weight: lighter;
+
+	position: relative;
+	display: inline-block;
+	/*border: 1px solid #FF0000;*/
+}
+
+/* ESTILO CAMPOS --------------------------- */
+
+.txtBox { 
+	width: 100%;
+	height: 35px; 
+	
+	padding: 20px 15px 20px 15px; 
+    border: 1px solid #bfbfbf; 
+    box-sizing: border-box;
+
+	font-family: "Gotham Book";
+	font-size: 17px;
+	color: #333; 
+
+    background:#FFFFFF;
+	
+	-webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+
+} 
+ 
+.txtBox:focus { 
+    outline: none; 
+	border: 1px solid #999;
+
+	box-shadow: 0px 0px 8px #CCC;
+    -moz-box-shadow: 0px 0px 8px #CCC;
+    -webkit-box-shadow: 0px 0px 8px #CCC;
+} 
+
+::-webkit-input-placeholder { 
+	font-family: "Gotham Book";
+	font-size: 17px;
+	color: #CCCCCC;
+} /* WebKit */
+
+:-moz-placeholder { 
+	font-family: "Gotham Book";
+	font-size: 17px;
+	color: #CCCCCC;
+} /* Firefox 18- */
+
+::-moz-placeholder { 
+	font-family: "Gotham Book";
+	font-size: 17px;
+	color: #CCCCCC;
+} /* Firefox 19+ */
+
+:-ms-input-placeholder {
+	font-family: "Gotham Book";
+	font-size: 17px;
+	color: #CCCCCC;
+} /* IE 10+ */
+
+
+/* ESTILO BOTON SUBMIT --------------------- */
+
+.button_1 {
+	width: auto;
+	height: 40px;
+	padding: 0px 9px 0px 9px;
+	border: 1.5px solid #FFF;
+	margin-top: 25px; 
+
+	font-family: "Gotham Medium";
+	font-size: 14px;
+	color: #FFF;
+
+	float: right;
+	box-sizing: border-box;
+	background: #000;
+	cursor: pointer;
+	outline: none;
+
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.button_1:hover {
+	color: #999;
+	border: 1.5px solid #999;
+
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+/* CONTENEDOR ------------------ */
+
+.contenedor {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	float: left;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+/* HOME --------------------- */
+
+.header {
+	width: 100%;
+	height: 85px;
+	position: fixed;
+	box-sizing: border-box;
+	background: #FFFFFF;
+	z-index: 20;
+}
+
+.cont_dias_eleccion {
+	width: 100%;
+	height: auto;
+	padding: 13px 10px 13px 10px;
+
+	font-family: "Gotham Book";
+	font-size: 16px;
+	color: #FFF;
+	text-align: center;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+
+	z-index: 5;
+	background: #232323;
+}
+
+.logo {
+	width: 150px;
+	height: auto;
+	position: absolute;
+	top: 15px;
+	left: 50px;
+	box-sizing: border-box;
+	cursor: pointer;
+	z-index: 10;
+	/*background: #CCC;*/
+}
+
+.logo_top {
+	top:20px;
+}
+
+.logo img {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+.ico_menu {
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 32px;
+	right: 50px;
+	box-sizing: border-box;
+	z-index: 10;
+	cursor: pointer;
+}
+
+.cont_menu {
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	background: rgba(0,0,0,.95);
+	z-index: 150;
+}
+
+.ico_close {
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 32px;
+	right: 50px;
+	box-sizing: border-box;
+	z-index: 10;
+	cursor: pointer;
+}
+
+.cont_redes_header {
+	width: auto;
+	height: auto;
+	padding: 0px 35px 0px 0px;
+	position: fixed;
+	top: 32px;
+	right: 115px;
+	box-sizing: border-box;
+	z-index: 10;
+	border-right: 1px solid #1076bc;
+}
+
+.redes_header {
+	width: auto;
+	height: 22px;
+	float: left;
+	margin-left: 35px;
+
+	box-sizing: border-box;
+	cursor: pointer;
+	/*border: 1px solid #FF0000;*/
+}
+
+.redes_header img {
+	width: auto;
+	height: 100%;
+	float: left;
+}
+
+.menu {
+	text-align: center;
+	position: relative;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	/*border: 1px solid #FF0000;*/
+}
+
+.btn_menu {
+	width: 100%;
+	height: auto;
+	padding: 10px 0px 10px 0px;
+
+	font-family: "Gotham Bold";
+	font-size: 30px;
+	color: #cecece;
+	text-align: center;
+
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+	cursor: pointer;
+	/*border: 1px solid #FF0000;*/
+
+	-webkit-transition: all .9s ease;
+	-moz-transition: all .9s ease;
+	-ms-transition: all .9s ease;
+	-o-transition: all .9s ease;
+	transition: all .9s ease;
+}
+
+.btn_menu:hover {
+	font-size: 34px;
+	color: #333;
+	background: #CCC;
+	padding: 25px 0px 25px 0px;
+
+	-webkit-transition: all .13s ease;
+	-moz-transition: all .13s ease;
+	-ms-transition: all .13s ease;
+	-o-transition: all .13s ease;
+	transition: all .13s ease;
+}
+
+.cont_redes_menu {
+	width: auto;
+	height: auto;
+	margin-top: 40px;
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.redes_menu {
+	width: auto;
+	height: 23px;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+
+	box-sizing: border-box;
+	cursor: pointer;
+	/*border: 1px solid #FF0000;*/
+}
+
+.redes_menu img {
+	width: auto;
+	height: 100%;
+	float: left;
+}
+
+/* HOME / INDEX ------------------------ */
+
+.bghome {
+	background: url(../images/banners/home.jpg); 
+	background-position: top center; 
+	background-repeat: no-repeat; 
+	background-size: cover;"
+}
+
+.cont_frase_home {
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	/*left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);*/
+    background: rgba(0,0,0,0.77);
+	box-sizing: border-box;
+	z-index: 1;
+	/*border: 1px solid #FF0000;*/
+}
+
+.frase_home {
+	width: 800px;
+	height: auto;
+
+	position: absolute;
+	left: 50%;
+    top: 54%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+
+	box-sizing: border-box;
+	/*border: 1px solid #FFFFFF;*/
+}
+
+video {
+	width: 100%;
+}
+
+.cont_form_home {
+	width: 100%;
+	height: 100vh;
+	margin-top: 0px;
+
+	position: fixed;
+	z-index: 250;
+	top: 0;
+
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.77);
+	/*border: 1px solid #FF0000;*/
+}
+
+.form_home {
+	width: auto;
+	height: auto;
+	position: absolute;
+	left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    /*border: 1px solid #FF0000;*/
+}
+
+.form_home_close {
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: -35px;
+	right: 0;
+	cursor: pointer;
+	/*border: 1px solid #FF0000;*/
+}
+
+.iframe_home {
+	width: 900px; 
+	height: 430px;
+	background: none;
+}
+
+.cont_rac_home {
+	width: 80%;
+	height: auto;
+
+	font-family: 'Gotham Book'; 
+	font-weight: bold;
+	font-size: 12px;
+	color: #FFF;
+	letter-spacing: 4px;
+
+	position: absolute;
+	left: 51%;
+    top: 82%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	/*border: 1px solid #FF0000;*/
+}
+
+.cont_rac_home img {
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+
+.cont_rac_home span {
+	font-family: 'Gotham Book'; 
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+.btn_rac_home_1 {
+	color: #FFF;
+}
+
+.btn_rac_home_1:hover {
+	color: #0096d5;
+}
+
+.btn_rac_home_2 {
+	color: #FFF;
+}
+
+.btn_rac_home_2:hover {
+	color: #ffd100;
+}
+
+.btn_rac_home_3 {
+	color: #FFF;
+}
+
+.btn_rac_home_3:hover {
+	color: #f78a1e;
+}
+
+.cont_rac_home p {
+	margin-top: 15px;
+	font-family: "Gotham Book";
+	font-size: 10px;
+	color: #FFF;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+/* CONOCEME / INDEX ------------------- */
+
+.bg_cont_conoceme {
+	background: url(../images/banners/conoceme.jpg); 
+	background-position: top center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.cont_conoceme {
+	width: 90%;
+	max-width: 500px;
+	height: auto;
+
+	position: absolute;
+	left: 22%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.separador_conoceme {
+	width: 39px;
+	height: 2px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	float: left;
+	box-sizing: border-box;
+	background: #FFF;
+	/*border: 1px solid #FF0000;*/
+}
+
+.descripcion_conoceme {
+	width: 100%;
+	height: auto;
+	padding: 0px 0px 0px 0px;
+
+	font-family: "Gotham Book";
+	font-size: 16px;
+	color: #FFF; 
+	text-align: justify;
+	line-height: 25px;
+
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.descripcion_conoceme img {
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: inherit;
+}
+
+/* PROPUESTAS / INDEX ------------------- */
+
+.cont_propuestas {
+	width: 90%;
+	max-width: 1050px;
+	height: auto;
+
+	position: absolute;
+	left: 50%;
+    top: 52%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.cont_propuestas h2 {
+	width: auto;
+	margin-top: 0;
+	float: left;
+	/*border: 1px solid #FF0000;*/
+}
+
+.separador_propuestas {
+	width: 1px;
+	height: 103px;
+	margin-left: 30px;
+	float: left;
+	box-sizing: border-box;
+	background: #FFF;
+	/*border: 1px solid #FF0000;*/
+}
+
+.cont_descripcion_propuestas_info {
+	width: 100%;
+	height: auto;
+
+	position: relative;
+	float: right;
+	box-sizing: border-box;
+	background: #EEE;
+	/*border: 1px solid #FF0000;*/
+}
+
+.cont_descripcion_propuestas_info h2 {
+	width: 100%;
+	height: 80px;
+	padding: 40px 0px 0px 0px;
+	font-size: 40px;
+	color: #333; 
+	text-align: center;
+	/*border: 1px solid #FF0000;*/
+}
+
+.cont_descripcion_propuestas_info p {
+	width: 90%;
+	max-width: 1000px;
+	margin-bottom: 45px;
+
+	font-family: "Gotham Book";
+	font-size: 16px;
+	color: #333; 
+	text-align: justify;
+	line-height: 25px;
+
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+
+	/*border: 1px solid #FF0000;*/
+}
+
+.descripcion_propuestas {
+	width: 475px;
+	height: auto;
+
+	font-family: "Gotham Book";
+	font-size: 16px;
+	color: #FFF; 
+	text-align: justify;
+	line-height: 25px;
+
+	position: relative;
+	float: right;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+/* SALA DE PRENSA / INDEX ------------------- */
+
+.cont_tit_noticias {
+	width: 100%;
+	height: auto;
+	padding: 40px 0px 0px 0px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.cont_tit_noticias h2 {
+	width: auto;
+	height: 59px;
+	margin-top: -15px; 
+	font-size: 50px;
+	/*border: 1px solid #FF0000;*/
+}
+
+.cont_noticias {
+	width: 1200px;
+	height: auto;
+
+	position: absolute;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	/*background: #FFF;
+	border: 1px solid #FF0000;*/
+}
+
+.noticias {
+	width: 50%;
+	height: auto;
+	text-align: center;
+
+	float: left;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.img_noticias_1 {
+	width: 100%;
+	height: 430px;
+	border: 5px solid #000;
+	
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+	cursor: pointer;
+	/*border: 1px solid #FF0000;*/
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.img_noticias_1:hover {
+	border: 0px solid #000;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.txt_noticias_1 {
+	width: 100%;
+	height: auto;
+	padding: 20px 25px 20px 25px;
+
+	font-family: "Gotham Book";
+	font-size: 24px;
+	color: #FFF; 
+	line-height: 28px;
+	text-align: left;
+	
+	position: absolute;
+	bottom: 0;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.7);
+	/*border: 1px solid #FF0000;*/
+
+	background: rgba(0,0,0,0);
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.73) 76%, rgba(0,0,0,0.74) 77%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(76%, rgba(0,0,0,0.73)), color-stop(77%, rgba(0,0,0,0.74)));
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.73) 76%, rgba(0,0,0,0.74) 77%);
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.73) 76%, rgba(0,0,0,0.74) 77%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.73) 76%, rgba(0,0,0,0.74) 77%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.73) 76%, rgba(0,0,0,0.74) 77%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+}
+
+.img_noticias_2 {
+	width: 50%;
+	height: 215px;
+	border: 5px solid #000;
+	margin: 0px 0px 0px 0px;
+	
+	position: relative;
+	float: right;
+	box-sizing: border-box;
+	cursor: pointer;
+	/*border: 1px solid #FF0000;*/
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.img_noticias_2:hover {
+	border: 0px solid #000;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.txt_noticias_2 {
+	width: 100%;
+	height: auto;
+	padding: 30px 20px 15px 20px;
+
+	font-family: "Gotham Book";
+	font-size: 16px;
+	color: #FFF; 
+	line-height: 20px;
+	text-align: left;
+	
+	position: absolute;
+	bottom: 0;
+	box-sizing: border-box;
+	z-index: 1;
+	/*border: 1px solid #FF0000;*/
+
+	background: rgba(0,0,0,0);
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.73) 76%, rgba(0,0,0,0.74) 77%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(76%, rgba(0,0,0,0.73)), color-stop(77%, rgba(0,0,0,0.74)));
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.73) 76%, rgba(0,0,0,0.74) 77%);
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.73) 76%, rgba(0,0,0,0.74) 77%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.73) 76%, rgba(0,0,0,0.74) 77%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.73) 76%, rgba(0,0,0,0.74) 77%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+}
+
+#not_1 {
+	display: inherit;
+}
+
+#not_2 {
+	display: inherit;
+}
+
+#not_3 {
+	display: inherit;
+}
+
+#not_4 {
+	display: inherit;
+}
+
+.flecha_noticias {
+	width: 16px;
+    height: 12px;
+
+    position: absolute;
+    right: 50%;
+    top: -2%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+
+    -webkit-clip-path: polygon(50% 36%, 0% 100%, 100% 100%);
+	clip-path: polygon(50% 36%, 0% 100%, 100% 100%);
+	/*border: 1px solid #FF0000;*/
+}
+
+.flecha_noticias_2 {
+	width: 16px;
+    height: 12px;
+
+    position: absolute;
+    right: 50%;
+    top: 100.5%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+
+    -webkit-clip-path: polygon(50% 100%, 0 36%, 100% 36%);
+	clip-path: polygon(50% 100%, 0 36%, 100% 36%);
+	z-index: 1;
+	/*border: 1px solid #FF0000;*/
+}
+
+.btn_noticias {
+	width: 100%;
+    height: auto;
+
+    position: absolute;
+    bottom: -50px;
+    right: 0;
+	z-index: 1;
+	/*border: 1px solid #FF0000;*/
+}
+
+/* ACTIVISMO / INDEX ------------------- */
+
+.bg_cont_voluntariado {
+	background: url(../images/banners/voluntariado.jpg); 
+	background-position: top center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.cont_voluntariado {
+	width: 80%;
+	max-width: 550px;
+	height: auto;
+
+	font-family: "Gotham Book";
+	font-size: 16px;
+	color: #333; 
+	text-align: left;
+
+	position: absolute;
+	right: -7%;
+    top: 52%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.separador_voluntariado {
+	width: 39px;
+	height: 2px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	float: left;
+	box-sizing: border-box;
+	background: #FFF;
+	/*border: 1px solid #FF0000;*/
+}
+
+.descripcion_voluntariado {
+	width: 100%;
+	height: auto;
+
+	font-family: "Gotham Book";
+	font-size: 16px;
+	color: #FFF; 
+	text-align: justify;
+	line-height: 25px;
+
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+/* FORMULARIO VOLUNTARIO / INDEX ------- */
+
+.cont_form_voluntario {
+	width: 350px;
+	height: 100vh;
+	position: fixed;
+	right: -350px;
+	background: #333;
+	z-index: 5;
+	display: none;
+}
+
+.btn_form_voluntario {
+	width: auto;
+	height: auto;
+	padding: 30px 6px 32px 6px;
+
+	font-family: "Lato-Bold";
+	font-size: 18px;
+	color: #999;
+	text-align: center;
+
+	position: absolute;
+	left: -9.5px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	cursor: pointer;
+	background: #333;
+	/*border: 1px solid #FF0000;*/
+	z-index: 5;
+
+}
+
+.btn_form_voluntario:hover {
+	color: #EEE;
+}
+
+.tit_form_voluntario {
+	width: auto;
+	height: auto;
+	margin-top: 30px;
+	padding: 15px 0px 15px 0px;
+
+	font-family: "Lato-Bold";
+	font-size: 22px;
+	color: #EEE;
+	text-align: center;
+}
+
+/* REDES SOCIALES / INDEX ------------------- */
+
+.cont_tit_redes_secc {
+	width: 100%;
+	height: auto;
+	padding: 40px 0px 0px 0px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.cont_tit_redes_secc h2 {
+	width: auto;
+	height: 59px;
+	margin-top: -15px; 
+	font-size: 50px;
+	/*border: 1px solid #FF0000;*/
+}
+
+.cont_redes_secc {
+	width: 1100px;
+	height: auto;
+
+	position: absolute;
+	left: 50%;
+    top: 55.5%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	/*background: #FFF;*/
+}
+
+/* EVENTOS / INDEX ------------------- */
+
+.cont_tit_eventos_secc {
+	width: 100%;
+	height: auto;
+	padding: 40px 0px 0px 0px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.cont_tit_eventos_secc h2 {
+	width: auto;
+	height: 59px;
+	margin-top: -15px; 
+	font-size: 50px;
+	/*border: 1px solid #FF0000;*/
+}
+
+.cont_eventos_secc {
+	width: 800px;
+	height: auto;
+
+	position: absolute;
+	left: 50%;
+    top: 54%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	/*border: 1px solid #EEE;*/
+}
+
+.cont_eventos_secc img {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+.cont_caja_eventos_secc {
+	width: 600px;
+	/*height: auto;*/
+
+	position: absolute;
+    top: 23%;
+    left: 5%;
+	box-sizing: border-box;
+	z-index: 1;
+	/*border: 1px solid #FF0000;*/
+}
+
+.cont_caja_eventos_secc_close {
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: -35px;
+	right: 0;
+	cursor: pointer;
+	/*border: 1px solid #FF0000;*/
+}
+
+.caja_eventos_secc {
+	width: 100%;
+	height: 130px;
+	/*height: 115px;*/
+	padding: 15px 15px 10px 130px;
+	margin-bottom: 13px;
+
+	font-family: 'Gotham Bold'; 
+	font-size: 14px; 
+	color: #5b5b5b; 
+	text-align: left;
+	line-height: 15px;
+
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+	background: #e9e8ed;
+}
+
+.caja_eventos_secc p {
+	font-family: "Gotham Book";
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.caja_eventos_secc_desc {
+	display: inherit;
+}
+
+.caja_eventos_secc_fecha {
+	width: 100px;
+	height: 95px;
+	padding: 15px 0px 0px 0px;
+
+	font-family: "Gotham Bold";
+	font-size: 16px;
+	color: #FFF; 
+	text-align: center;
+
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	box-sizing: border-box;
+	background: #131032;
+}
+
+.caja_eventos_secc_fecha p {
+	font-family: 'Gotham Bold'; 
+	margin-top: 20px;
+	font-size: 60px;
+}
+
+.con_caja_eventos_secc_redes {
+	width: auto;
+	height: auto;
+
+	font-family: 'Gotham Bold'; 
+	font-size: 12px;
+	color: #131032;
+
+	position: absolute;
+	right: 20px;
+	bottom: 8px;
+	/*border: 1px solid #FF0000;*/
+}
+
+.caja_eventos_secc_redes {
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+	float: left;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.caja_eventos_secc_redes img {
+	width: auto;
+	height: 100%;
+	float: left;
+}
+
+.caja_eventos_secc_info {
+	position: absolute;
+	bottom: 8px;
+
+	font-family: 'Gotham Bold'; 
+	font-size: 12px;
+	color: #131032;
+	margin-top: 12px;
+}
+
+#caja_eventos_secc_info_display {
+	display: none;
+}
+
+#eventos_edo_2 {
+	display: none;
+}
+
+/* LANDING ------------------- */
+
+.cont_landing {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+	background: #e4e4e4;
+}
+
+.landing {
+	width: 100%;
+	max-width: 1000px;
+	height: auto;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.banner_landing {
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.banner_landing img {
+	width: 100%;
+	height: auto;
+	float: left;
+	box-sizing: border-box;
+}
+
+.cont_caja_landing {
+	width: 100%;
+	height: auto;
+	float: left;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.caja_landing {
+	width: 55%;
+	height: auto;
+	padding: 28px 42px 30px 42px;
+
+	font-family: "Gotham Book";
+	text-align: justify;
+
+	float: left;
+	box-sizing: border-box;
+	background: #FFF;
+	/*border: 1px solid #FF0000;*/
+}
+
+.caja_landing  img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+	float: left;
+}
+
+.tit_landing {
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+
+	font-family: "Gotham Bold";
+	font-size: 34px;
+	color: #313131;
+	text-align: left;
+
+	float: left;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.iframe_tit_landing {
+	width: 100%; 
+	height: 250px;
+}
+
+.caja_landing_width {
+	width: 45%;
+	padding: 35px 0px 35px 0px;
+	text-align: center;
+	background: none;
+}
+
+.iframe_caja_landing_width {
+	width: 90%; 
+	height: 550px;
+	/*border: 1px solid #FF0000;*/
+}
+
+.footer_landing {
+	width: 100%;
+	height: auto;
+	padding: 20px 40px 20px 35px;
+	float: left;
+	box-sizing: border-box;
+	background: #0c0c0c;
+	/*border: 1px solid #FF0000;*/
+}
+
+.footer_landing img {
+	width: auto;
+	height: auto;
+	float: left;
+}
+
+.cont_redes_landing {
+	width: auto;
+	height: auto;
+	margin-top: 3px;
+	float: right;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.redes_landing  {
+	width: auto;
+	height: 23px;
+	float: left;
+	margin-left: 35px;
+
+	box-sizing: border-box;
+	cursor: pointer;
+	/*border: 1px solid #FF0000;*/
+}
+
+.redes_landing  img {
+	width: auto;
+	height: 100%;
+	float: left;
+}
+
+.preview_landing {
+	width: 100%;
+	height: auto;
+	padding: 10px 0px 10px 0px;
+
+	font-family: "Gotham Book";
+	font-size: 14px;
+	color: #FFF;
+	text-align: center;
+
+	position: fixed;
+	box-sizing: border-box;
+	background: #000;
+	z-index: 1;
+
+	-webkit-box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.74);
+    -moz-box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.74);
+    box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.74);
+}
+
+.share_landing {
+	width: auto;
+	height: auto;
+	position: absolute;
+	bottom: 27px;
+	right: 42px;
+	cursor: pointer;
+	/*border: 1px solid #FF0000;*/
+}
+
+.caja_share_landing {
+	width: auto;
+	height: auto;
+	padding: 62px 0px 10px 0px;
+	position: absolute;
+	top: 0px;
+	left: -14px;
+	box-sizing: border-box;
+	display: none;
+	/*border: 1px solid #FF0000;*/
+}
+
+.triangulo_share_landing  {
+     width: 0;
+     height: 0;
+     position: absolute;
+     top: 18px;
+     left: 32px;
+     border-right: 11px solid transparent;
+     border-left: 0px solid transparent;
+     border-top: 0px solid transparent;
+     border-bottom: 44px solid rgba(169,169,169,0.77);
+}
+
+.cont_redes_share_landing {
+	width: 194px;
+	height: auto;
+	padding: 6px 0px 5px 7px;
+	float: right;
+	box-sizing: border-box;
+	border-radius: 10px;
+	background: rgba(169,169,169,0.77);
+	/*border: 1px solid #FF0000;*/
+}
+
+.redes_share_landing {
+	width: auto;
+	height: 25px;
+	float: left;
+	margin-left: 12px;
+	margin-right: 12px;
+
+	box-sizing: border-box;
+	cursor: pointer;
+	/*border: 1px solid #FF0000;*/
+}
+
+.redes_share_landing  img {
+	width: auto;
+	height: 100%;
+	float: left;
+	opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+.redes_share_landing:hover  img {
+	opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+/* SECCION INTERNA --------------------- */
+
+.cont_secc_int {
+	width: 100%;
+	height: auto;
+	padding: 85px 0px 0px 0px;
+	text-align: center;
+	float: left;
+	box-sizing: border-box;
+	background: #FFF;
+	/*border: 1px solid #FF0000;*/
+}
+
+.banner_secc_int {
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.tit_banner_secc_int {
+	width: 90%;
+	max-width: 1200px;
+	height: auto;
+	margin: 0;
+
+	position: absolute;
+	left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.tit_banner_secc_int h2 {
+	height: auto;
+	font-size: 56px;
+}
+
+.cont_caja_info {
+	width: 100%;
+	max-width: 1200px;
+	height: auto;
+	padding: 50px 0px 80px 0px;
+	position: relative;
+	display: inline-block;
+	/*border: 1px solid #000;*/
+}
+
+.caja_info {
+	width: 380px;
+	height: auto;
+	margin: 0px 5px 10px 5px;
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+	overflow: hidden;
+
+	border: 1px solid #FFF;
+
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.caja_info:hover {
+	border: 1px solid #EEE;
+	-webkit-box-shadow: 4px 4px 5px -2px rgba(0,0,0,0.23);
+    -moz-box-shadow: 4px 4px 5px -2px rgba(0,0,0,0.23);
+    box-shadow: 4px 4px 5px -2px rgba(0,0,0,0.23);
+
+    -webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.caja_info_cont {
+	width: 100%;
+	height: 150px;
+	padding: 15px 20px 15px 20px;
+
+	font-family: "Gotham Book";
+	font-size: 16px;
+	color: #636363;
+	text-align: justify;
+	line-height: 23px;
+	cursor: pointer;
+
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.caja_info_cont_img {
+	height: 150px;
+}
+
+.caja_info_cont_img_propuestas {
+	height: 126px;
+}
+
+.caja_info_fecha {
+	width: 100%;
+	height: auto;
+	padding: 10px 25px 10px 25px;
+
+	font-family: "Gotham Book";
+	font-size: 12px;
+	color: #636363;
+	text-align: right;
+
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.caja_info_paginacion {
+	width: 100%;
+	height: auto;
+	margin-top: 15px;
+	text-align: center;
+	float: left;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.caja_info_paginacion_flecha {
+	width: 35px;
+	height: 33px;
+	margin: 0px 5px 0px 5px;
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	overflow: hidden;
+	cursor: pointer;
+	/*border: 1px solid #FF0000;*/
+}
+
+.flecha_left img {
+	position: absolute;
+	top: -32px;
+	left: 0;
+}
+
+.flecha_left:hover img {
+	top: 0;
+}
+
+.flecha_right img {
+	position: absolute;
+	top: -32px;
+	left: -41px;
+}
+
+.flecha_right:hover img {
+	top: 0;
+}
+
+.caja_info_cont .separador_conoceme {
+	margin-top: 0;
+	margin-bottom: 15px;
+	background: #201861;
+}
+
+.tit_caja_info_cont {
+	font-family: "Gotham Medium";
+	font-weight: bold;
+	font-size: 18px;
+	color: #636363;
+	line-height: 25px;
+	text-align: left;
+	margin-bottom: 8px;
+}
+
+.cont_form_secc_int {
+	width: 100%;
+	height: auto;
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.form_caja_secc_int {
+	width: 90%;
+	max-width: 1000px;
+	height: auto;
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+
+.form_secc_int {
+	width: 50%;
+	height: auto;
+	padding: 20px 0px 20px 0px;
+	float: left;
+	box-sizing: border-box;
+	/*background: #001650;
+	border: 1px solid #FF0000;*/
+}
+
+.form_secc_int img {
+	width: 280px;
+	height: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.iframe_form_secc_int {
+	width: 100%;
+	height: 468px;
+}
+
+.footer_secc_int {
+	width: 100%;
+	max-width: 1200px;
+	height: auto;
+	padding: 20px 40px 20px 35px;
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	/*background: #0c0c0c;
+	border: 1px solid #FF0000;*/
+}
+
+.footer_secc_int img {
+	width: auto;
+	height: auto;
+	float: left;
+}
+
+.footer_secc_int .redes {
+	margin-top: 12px; 
+	margin-left: 15px;
+}
+
+.cont_redes_secc_int {
+	width: auto;
+	height: auto;
+	margin-top: 3px;
+	float: right;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.redes_secc_int {
+	width: auto;
+	height: 23px;
+	float: left;
+	margin-left: 35px;
+
+	box-sizing: border-box;
+	cursor: pointer;
+	/*border: 1px solid #FF0000;*/
+}
+
+.redes_secc_int img {
+	width: auto;
+	height: 100%;
+	float: left;
+}
+
+/* CONOCEME / SECCION INTERNA --------------------- */
+
+.cont_conceme_int {
+	width: 85%;
+	max-width: 1200px;
+	height: auto;
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.conceme_int {
+	width: 50%;
+	height: 480px;
+	float: left;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.conceme_int_img {
+	height: 520px;
+	position: absolute; 
+	top: 25px; 
+	right: 0; 
+	z-index: 1;
+}
+
+.conceme_int h2 {
+	height: 40px;
+	margin-top: 80px;
+	font-size: 56px;
+	color: #201861;
+}
+
+.conceme_int .separador_conoceme {
+	background: #201861;
+}
+
+.conceme_int p {
+	width: 100%;
+	height: auto;
+	padding: 0px 80px 0px 0px;
+
+	font-family: "Gotham Book";
+	font-size: 16px;
+	color: #636363;
+	text-align: justify;
+	line-height: 22px;
+
+	float: left;
+	box-sizing: border-box;
+}
+
+.cont_timeline_conoceme_int {
+	width: 100%;
+	height: auto;
+	padding: 90px 0px 100px 0px;
+	text-align: center;
+	float: left;
+	box-sizing: border-box;
+	background: #1b1647;
+}
+
+.cont_timeline_conoceme_int h2 {
+	width: 100%;
+	max-width: 1200px;
+	height: 43px;
+	margin-bottom: 30px;
+	padding: 0px 50px 0px 0px;
+
+	text-align: right;
+	font-size: 40px;
+
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.cont_timeline_conoceme_int p {
+	width: 85%;
+	max-width: 1200px;
+
+	font-family: "Gotham Book";
+	font-size: 16px;
+	color: #636363;
+	text-align: justify;
+	line-height: 22px;
+
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.timeline_conoceme_int {
+	width: 90%;
+	max-width: 1200px;
+	height: auto;
+	padding: 20px 0px 20px 0px;
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	/*border: 1px solid #FFF;*/
+}
+
+.timeline_conoceme_int_caja_datos {
+	width: 100%;
+	height: 350px;
+
+	font-family: "Gotham Book";
+	font-size: 24px;
+	color: #FFF;
+	text-align: center;
+
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+	/*background: #CCC;
+	border: 1px solid #FF0000;*/
+}
+
+.timeline_conoceme_int_datos {
+	width: 100%;
+	height: auto;
+	padding: 0px 0px 0px 1px;
+
+	font-family: "Gotham Book";
+	font-size: 24px;
+	color: #FFF;
+	text-align: justify;
+
+	position: absolute;
+	left: 50%;
+    top: 17%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	/*background: #CCC;
+	border: 1px solid #FF0000;*/
+}
+
+.timeline_conoceme_int_datos_top {
+	top: 82.5%;
+}
+
+.timeline_conoceme_int_datos p {
+	width: 97%;
+	font-size: 14px;
+	line-height: 17px;
+	/*border: 1px solid #FF0000;*/
+}
+
+.timeline_conoceme_int_line {
+	width: 100%;
+	height: 3.5px;
+
+	position: absolute;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    background: #FFF;
+}
+
+.timeline_conoceme_int_square {
+	width: 40px;
+	height: 60px;
+
+	position: absolute;
+	left: 8%;
+    top: 46.5%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.timeline_conoceme_int_square_top {
+	top: 53%;
+}
+
+.timeline_conoceme_int_square_color_1 {
+	background: #faaf40;
+}
+
+.timeline_conoceme_int_square_color_2 {
+	background: #fd6b00;
+}
+
+.timeline_conoceme_int_square_color_3 {
+	background: #1b75bb;
+}
+
+.timeline_conoceme_int_circle {
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+
+	position: absolute;
+	left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    background: #1e1855;
+}
+
+.timeline_conoceme_int_circle_top {
+	top: 22%;
+}
+
+.timeline_conoceme_int_line_circle {
+	width: 25px;
+	height: 25px;
+	border-radius: 40px;
+
+	position: absolute;
+	left: 40%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    background: #1e1855;
+    border: 2.5px solid #FFF;
+    z-index: 1;
+}
+
+.timeline_conoceme_int_line_circle_left {
+	left: 60%;
+}
+
+.timeline_conoceme_int_gradient_left {
+	width: 170px;
+	height: 400px;
+
+	position: absolute;
+	top: 0;
+	left: 0px;
+	box-sizing: border-box;
+	background: #CCC;
+	/*border: 1px solid #FF0000;*/
+	z-index: 1;
+
+	background: rgba(27,22,71,1);
+	background: -moz-linear-gradient(left, rgba(27,22,71,1) 13%, rgba(33,28,73,0) 95%);
+	background: -webkit-gradient(left top, right top, color-stop(13%, rgba(27,22,71,1)), color-stop(95%, rgba(33,28,73,0)));
+	background: -webkit-linear-gradient(left, rgba(27,22,71,1) 13%, rgba(33,28,73,0) 95%);
+	background: -o-linear-gradient(left, rgba(27,22,71,1) 13%, rgba(33,28,73,0) 95%);
+	background: -ms-linear-gradient(left, rgba(27,22,71,1) 13%, rgba(33,28,73,0) 95%);
+	background: linear-gradient(to right, rgba(27,22,71,1) 13%, rgba(33,28,73,0) 95%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b1647', endColorstr='#211c49', GradientType=1 );
+}
+
+.timeline_conoceme_int_gradient_right {
+	width: 170px;
+	height: 400px;
+
+	position: absolute;
+	top: 0;
+	right: 0px;
+	box-sizing: border-box;
+	background: #CCC;
+	/*border: 1px solid #FF0000;*/
+	z-index: 1;
+
+	background: rgba(33,28,74,0);
+	background: -moz-linear-gradient(left, rgba(33,28,74,0) 0%, rgba(26,22,70,1) 92%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(33,28,74,0)), color-stop(92%, rgba(26,22,70,1)));
+	background: -webkit-linear-gradient(left, rgba(33,28,74,0) 0%, rgba(26,22,70,1) 92%);
+	background: -o-linear-gradient(left, rgba(33,28,74,0) 0%, rgba(26,22,70,1) 92%);
+	background: -ms-linear-gradient(left, rgba(33,28,74,0) 0%, rgba(26,22,70,1) 92%);
+	background: linear-gradient(to right, rgba(33,28,74,0) 0%, rgba(26,22,70,1) 92%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211c4a', endColorstr='#1a1646', GradientType=1 );
+}
+
+/* ACTIVISMO / SECCION INTERNA --------------------- */
+
+.cont_activismo {
+	width: 50%;
+	height: 1280px;
+	padding: 40px 0px 0px 0px;
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+
+	background: rgba(235,235,235,1);
+	background: -moz-linear-gradient(top, rgba(235,235,235,1) 0%, rgba(255,255,255,1) 49%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(235,235,235,1)), color-stop(49%, rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(top, rgba(235,235,235,1) 0%, rgba(255,255,255,1) 49%);
+	background: -o-linear-gradient(top, rgba(235,235,235,1) 0%, rgba(255,255,255,1) 49%);
+	background: -ms-linear-gradient(top, rgba(235,235,235,1) 0%, rgba(255,255,255,1) 49%);
+	background: linear-gradient(to bottom, rgba(235,235,235,1) 0%, rgba(255,255,255,1) 49%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebebeb', endColorstr='#ffffff', GradientType=0 );
+
+	/*border: 1px solid #FF0000;*/
+}
+
+.activismo {
+	width: 100%;
+	max-width: 550px;
+	height: 750px;
+
+	font-family: "Gotham Book";
+	font-size: 16px;
+	color: #636363;
+	text-align: justify;
+	line-height: 25px;
+
+	position: relative;
+	margin: 0 auto;
+	box-sizing: border-box;
+	z-index: 2;
+	/*border: 1px solid #FF0000;*/
+}
+
+.activismo img {
+	width: 100%;
+	height: auto;
+	margin-top: 15px;
+	float: left;
+}
+
+.activismo h2 {
+	height: auto;
+	font-family: "Gotham Bold";
+	font-size: 32px;
+	color: #363636;
+}
+
+.activismo .separador_conoceme {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background: #201861;
+}
+
+#img_footer_activismo_1 {
+	display: inherit;
+}
+
+#img_footer_activismo_2 {
+	display: none;
+}
+
+.footer_img_activismo {
+	width: 100%;
+	height: 500px;
+	padding: 20px 0px 20px 0px;
+
+	font-family: "Gotham Book";
+	font-size: 28px;
+	color: #FFF;
+
+	position: absolute;
+	bottom: 0;
+	box-sizing: border-box;
+	z-index: 1;
+	/*border: 1px solid #FF0000;*/
+}
+
+.barra_activismo {
+	width: 100%;
+	height: auto;
+	padding: 20px 0px 20px 0px;
+
+	font-family: "Gotham Book";
+	font-size: 22px;
+	color: #FFF;
+
+	float: left;
+	box-sizing: border-box;
+	background: #0c0c0c;
+}
+
+.barra_activismo span {
+	margin-left: 10px;
+	padding: 3px 12px 3px 12px;
+
+	font-family: "Gotham Bold";
+	font-size: 22px;
+	color: #FFF;
+	cursor: pointer;
+
+	border: 1.5px solid #FFF;
+
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.barra_activismo:hover span {
+	color: #666;
+	border: 1.5px solid #666;
+
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.iframe_activismo {
+	width: 100%;
+	height: 650px;
+}
+
+/* DETALLE DE REGISTRO --------------------- */
+
+.cont_detalle_secc_int {
+	width: 100%;
+	height: 600px;
+	text-align: center;
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.cont_detalle_secc_int_propuestas {
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.cont_tit_detalle_secc_int {
+	width: auto;
+	height: auto;
+	padding: 25px 0px 0px 0px;
+
+	font-family: "Gotham Bold";
+	font-size: 40px;
+	color: #474747;
+	text-align: center;
+
+	position: absolute;
+	left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.tit_detalle_secc_int {
+	width: 100%;
+	height: auto;
+	padding: 20px 40% 40px 60px;
+
+	font-family: "Gotham Bold";
+	font-size: 40px;
+	color: #FFF;
+	text-align: left;
+
+	position: absolute;
+	bottom: 0;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+
+	background: rgba(0,0,0,0);
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.73) 76%, rgba(0,0,0,0.74) 77%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(76%, rgba(0,0,0,0.73)), color-stop(77%, rgba(0,0,0,0.74)));
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.73) 76%, rgba(0,0,0,0.74) 77%);
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.73) 76%, rgba(0,0,0,0.74) 77%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.73) 76%, rgba(0,0,0,0.74) 77%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.73) 76%, rgba(0,0,0,0.74) 77%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+}
+
+.cont_tit_detalle_secc_int_resp {
+	display: none;
+}
+
+.detalle_secc_int {
+	width: 90%;
+	max-width: 1200px;
+	height: auto;
+	padding: 20px 0px 60px 0px;
+
+	font-family: "Gotham Book";
+	font-size: 16px;
+	text-align: justify;
+	line-height: 25px;
+
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+/* FOOTER --------------------- */
+
+footer {
+	width: 100%;
+	height: auto;
+	padding: 50px 50px 50px 0px; 
+	text-align: center;
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+	background: #333;
+}
+
+.footer {
+	width: 100%;
+	height: auto;
+	padding: 15px 0px 25px 0px; 
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	box-sizing: border-box;
+	z-index: 10;
+	/*border: 1px solid #FF0000;*/
+}
+
+.redes {
+	width: auto;
+	height: auto;
+	float: left;
+	margin-left: 30px;
+
+	font-family: "Gotham Book";
+	font-size: 12px;
+	color: #FFF;
+
+	box-sizing: border-box;
+	cursor: pointer;
+	/*border: 1px solid #FF0000;*/
+}
+
+.arrow_footer {
+	width: auto;
+	height: 30px;
+	position: absolute;
+	left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	/*border: 1px solid #FF0000;*/
+}
+
+.arrow_up {
+    top: -10%;
+}
+
+#ico_cursor_desk {
+	display: inherit;
+}
+
+#ico_cursor_m {
+	display: none;
+}
+
+/* DIV CAJA FLOTANTE ----------------------- */
+
+#caja-flotante {
+	width: 45px;
+	height: 45px;
+	background: none;
+	position: fixed;
+	right: 2%;
+	bottom: 2%;
+	z-index: 1;
+}
+
+#caja-flotante img {
+	width:100%;
+	height: auto;
+}
+
+/* TABLA ----------------------- */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+
+/* Resolucion abajo de 930px ----------------------- */
+@media screen and (max-width: 930px){
+
+
+}

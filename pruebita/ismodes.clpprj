@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="D:\UniServerZ\www\adianti\ismodes\ismodes.clpprj">
+	<settings><PM_URL><![CDATA[D:/UniServerZ/www/adianti/sigunsa/]]></PM_URL><PM_HOME_URL><![CDATA[D:/UniServerZ/www/adianti/sigunsa/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\layout.html"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\NewFile.php"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\controllers\Welcome.php"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\meta.php"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\css\rac5.css"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\css\racm5.css"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\css\animations.css"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\config\routes.php"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\init.php"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\main.php"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\plataforma.php"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\foot.php"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\css\normalize.css"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\css\jquery.pagepiling.css"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\css\main.css"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\css\style_arrow.css"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\css\style_arrow_2.css"/>
+	</lastopfiles>
+	<errors version="5.11">
+		<errfile name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\vistas\propuestas_item.php">
+			<error val="136;80;161;80;2002;1;"/>
+			<error val="161;80;178;80;2002;1;"/>
+		</errfile>
+		<errfile name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\css\rac5.css">
+			<error val="4;118;38;118;2502;1;"/>
+			<error val="1;179;30;179;2502;1;"/>
+			<error val="1;190;30;190;2502;1;"/>
+			<error val="1;345;30;345;2502;1;"/>
+			<error val="1;358;31;358;2502;1;"/>
+			<error val="1;754;30;754;2502;1;"/>
+			<error val="1;763;30;763;2502;1;"/>
+			<error val="1;808;30;808;2502;1;"/>
+			<error val="1;817;30;817;2502;1;"/>
+			<error val="4;875;60;875;2502;1;"/>
+			<error val="1;876;49;876;2502;1;"/>
+			<error val="4;890;58;890;2502;1;"/>
+			<error val="1;891;47;891;2502;1;"/>
+			<error val="1;1508;30;1508;2502;1;"/>
+			<error val="1;1521;30;1521;2502;1;"/>
+			<error val="1;2110;30;2110;2502;1;"/>
+			<error val="1;2121;30;2121;2502;1;"/>
+		</errfile>
+		<errfile name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\css\animations.css">
+			<error val="4;35;31;35;2502;1;"/>
+			<error val="4;36;29;36;2502;1;"/>
+			<error val="4;41;30;41;2502;1;"/>
+			<error val="4;42;28;42;2502;1;"/>
+			<error val="4;47;31;47;2502;1;"/>
+			<error val="4;48;29;48;2502;1;"/>
+			<error val="4;53;30;53;2502;1;"/>
+			<error val="4;54;28;54;2502;1;"/>
+			<error val="4;59;31;59;2502;1;"/>
+			<error val="4;60;29;60;2502;1;"/>
+			<error val="4;65;30;65;2502;1;"/>
+			<error val="4;66;28;66;2502;1;"/>
+			<error val="4;71;31;71;2502;1;"/>
+			<error val="4;72;29;72;2502;1;"/>
+			<error val="4;77;30;77;2502;1;"/>
+			<error val="4;78;28;78;2502;1;"/>
+			<error val="4;83;30;83;2502;1;"/>
+			<error val="4;84;28;84;2502;1;"/>
+			<error val="4;89;30;89;2502;1;"/>
+			<error val="4;90;28;90;2502;1;"/>
+			<error val="4;95;30;95;2502;1;"/>
+			<error val="4;96;28;96;2502;1;"/>
+			<error val="4;101;30;101;2502;1;"/>
+			<error val="4;102;28;102;2502;1;"/>
+			<error val="4;107;30;107;2502;1;"/>
+			<error val="4;108;28;108;2502;1;"/>
+			<error val="8;1600;35;1600;2502;1;"/>
+			<error val="8;1599;39;1599;2502;1;"/>
+		</errfile>
+		<errfile name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\NewFile.php">
+			<error val="13;19;33;19;2002;1;"/>
+			<error val="13;20;32;20;2002;1;"/>
+			<error val="13;21;31;21;2002;1;"/>
+			<error val="13;22;33;22;2002;1;"/>
+			<error val="13;23;37;23;2002;1;"/>
+			<error val="13;24;39;24;2002;1;"/>
+			<error val="13;25;40;25;2002;1;"/>
+		</errfile>
+		<errfile name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\meta.php">
+			<error val="7;23;27;23;2002;1;"/>
+			<error val="7;24;26;24;2002;1;"/>
+			<error val="7;25;25;25;2002;1;"/>
+			<error val="7;26;27;26;2002;1;"/>
+			<error val="7;27;31;27;2002;1;"/>
+			<error val="13;28;39;28;2002;1;"/>
+			<error val="13;29;40;29;2002;1;"/>
+			<error val="13;30;37;30;2002;1;"/>
+		</errfile>
+		<errfile name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\layout.html">
+			<error val="7;14;27;14;2002;1;"/>
+			<error val="7;15;26;15;2002;1;"/>
+			<error val="7;16;25;16;2002;1;"/>
+			<error val="7;17;27;17;2002;1;"/>
+			<error val="7;18;31;18;2002;1;"/>
+		</errfile>
+		<errfile name="D:\UniServerZ\www\adianti\ismodes\app\model\log\SystemAccessLog.class.php">
+			<error val="48;49;49;49;901;2;"/>
+		</errfile>
+		<errfile name="D:\UniServerZ\www\adianti\ismodes\app\lib\pdf\FPDF.php">
+			<error val="31;1615;34;1615;302;2;"/>
+			<error val="40;1691;43;1691;302;2;"/>
+		</errfile>
+		<errfile name="D:\UniServerZ\www\adianti\ismodes\adminer-4.3.1.php">
+			<error val="1433;1808;1436;1808;102;1;"/>
+		</errfile>
+	</errors>
+	<cakedata>
+	</cakedata>
+	<dplmenupath>
+	</dplmenupath><laravael>
+	</laravael><smartyassings>
+	</smartyassings><twigtemplate>
+	</twigtemplate><yiidata>
+	</yiidata>
+	<todoblock>
+		<todofile name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\core\Loader.php">
+			<todo name="todo Figure out a way to move this to the constructor" pos="5;148"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\core\Output.php">
+			<todo name="todo We need to figure out how to permit headers to be cached." pos="5;209"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\DB_forge.php">
+			<todo name="todo Remove deprecated $_after option in 3.1+" pos="5;557"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\DB_query_builder.php">
+			<todo name="@todo error" pos="4;2000"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\sqlite3\sqlite3_driver.php">
+			<todo name="todo Implement use of SQLite3::querySingle(), if needed" pos="5;120"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\sqlite3\sqlite3_forge.php">
+			<todo name="todo implement drop_column(), modify_column()" pos="5;135"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\sqlite\sqlite_forge.php">
+			<todo name="todo implement drop_column(), modify_column()" pos="5;115"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\date_helper.php">
+			<todo name="todo Remove in version 3.1+." pos="5;134"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\file_helper.php">
+			<todo name="todo Remove in version 3.1+." pos="5;58"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\security_helper.php">
+			<todo name="todo Remove in version 3.1+." pos="5;89"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\string_helper.php">
+			<todo name="todo Remove in version 3.1+." pos="5;64"/>
+			<todo name="todo: remove in 3.1+" pos="19;229"/>
+			<todo name="todo: remove in 3.1+" pos="20;232"/>
+			<todo name="todo Remove in version 3.1+." pos="5;292"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\url_helper.php">
+			<todo name="todo Remove old 'dash' and 'underscore' usage in 3.1+." pos="5;472"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Xmlrpc.php">
+			<todo name="@todo - this needs to be made more general purpose" pos="6;1574"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\ismodes\app\lib\mail\PHPMailer.class.php">
+			<todo name="TODO Why is this needed when the SMTP class takes care of it?" pos="8;229"/>
+			<todo name="TODO This should really not be public" pos="8;365"/>
+			<todo name="@TODO would be nice to use php://temp streams here, but need to wrap for PHP &lt; 5.1" pos="17;2090"/>
+			<todo name="TODO Should this not be using the __set() magic function?" pos="8;3382"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\ismodes\app\lib\rtf\PHPRtfLite.php">
+			<todo name="@TODO rtf escapes" pos="9;978"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\ismodes\app\lib\rtf\PHPRtfLite\Container.php">
+			<todo name="todo Documentation" pos="8;141"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\ismodes\app\lib\rtf\PHPRtfLite\Container\Section.php">
+			<todo name="todo bottom justify don't work" pos="8;463"/>
+		</todofile>
+		<todofile name="D:\UniServerZ\www\adianti\ismodes\app\lib\rtf\PHPRtfLite\Table.php">
+			<todo name="TODO source code commentation" pos="8;550"/>
+		</todofile>
+	</todoblock>
+	<filescache>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\math\translationstrategy\TranslationStrategyInterface.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\math\translationstrategy\ShuntingYard.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\math\Token.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\math\Parser.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\math\Operator.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\math\Lexer.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-zh-TW.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-zh-HK.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-zh-CN.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-vi.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-uk.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-tr.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-th.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-ta.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-sv.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-sr.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-sr-SR.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-sq.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-sl.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-sk.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-ru.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-ro.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-rm.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-pt.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-pt-BR.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-pl.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-no.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-nl.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-ms.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-ml.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-lv.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-lt.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-kz.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-ko.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-ja.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-it.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-is.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-id.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-hy.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-hu.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-hr.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-he.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-gl.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-fr.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-fr-CH.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-fo.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-fi.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-fa.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-eu.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-et.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-es.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-eo.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-en-NZ.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-en-GB.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-en-AU.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-el.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-de.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-da.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-cs.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-ca.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-bs.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-bg.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-az.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-ar.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-ar-DZ.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery.ui.datepicker-af.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\i18n\jquery-ui-i18n.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\select2_locale_pt.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\select2.min.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\select2.min.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\select2.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\select2.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\select2-bootstrap.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\moment.min.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\lang-all.js" crc="1448862186"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery.treeview.min.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery.treeview.min.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery.treeview.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery.treeview.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery.scrollto.min.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery.min.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery.imask.min.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery.editinplace.min.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery.editinplace.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery.dataTables.min.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery.dataTables.min.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery.blockUI.min.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery.blockUI.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery.autocomplete.min.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery.autocomplete.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery-ui.theme.min.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery-ui.theme.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery-ui.structure.min.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery-ui.structure.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery-ui.min.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery-ui.min.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery-ui.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery-ui.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery-plugins.txt" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery-plugins.min.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery-plugins.min.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery-plugins.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\jquery-licence.txt" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\fullcalendar.min.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\fullcalendar.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\fullcalendar-pt.js" crc="1522820567"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\dataTables.responsive.min.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\jquery\dataTables.responsive.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\scss\font-awesome.scss" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\scss\_variables.scss" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\scss\_stacked.scss" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\scss\_rotated-flipped.scss" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\scss\_path.scss" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\scss\_mixins.scss" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\scss\_list.scss" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\scss\_larger.scss" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\scss\_icons.scss" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\scss\_fixed-width.scss" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\scss\_core.scss" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\scss\_bordered-pulled.scss" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\scss\_animated.scss" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\less\variables.less" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\less\stacked.less" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\less\rotated-flipped.less" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\less\path.less" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\less\mixins.less" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\less\list.less" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\less\larger.less" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\less\icons.less" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\less\font-awesome.less" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\less\fixed-width.less" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\less\core.less" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\less\bordered-pulled.less" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\less\animated.less" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\css\font-awesome.min.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\font-awesome\css\font-awesome.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.zh-TW.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.zh-CN.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.vi.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.uk.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.tr.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.th.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.sw.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.sv.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.sr.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.sr-latin.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.sq.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.sl.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.sk.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.ru.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.rs.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.rs-latin.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.ro.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.pt.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.pt-BR.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.pl.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.no.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.nl.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.nl-BE.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.nb.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.ms.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.mk.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.lv.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.lt.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.kr.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.kk.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.kh.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.ka.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.ja.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.it.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.it-CH.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.is.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.id.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.hy.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.hu.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.hr.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.he.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.gl.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.fr.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.fr-CH.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.fo.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.fi.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.fa.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.eu.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.et.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.es.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.en-GB.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.el.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.de.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.da.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.cy.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.cs.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.ca.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.bs.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.bg.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.az.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\locales\bootstrap-datepicker.ar.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\summernote.min.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\summernote.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\fontawesome-iconpicker.min.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\fontawesome-iconpicker.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\bootstrap.min.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\bootstrap.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\bootstrap-plugins.txt" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\bootstrap-plugins.min.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\bootstrap-plugins.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\bootstrap-datetimepicker.min.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\bootstrap-datepicker.min.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\bootstrap-datepicker.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\bootstrap-colorpicker.min.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\bootstrap-colorpicker.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\js\bootbox.min.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\css\summernote.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\css\fontawesome-iconpicker.min.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\css\fontawesome-iconpicker.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\css\datepicker.min.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\css\datepicker.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\css\bootstrap.vertical-tabs.min.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\css\bootstrap.vertical-tabs.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\css\bootstrap.min.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\css\bootstrap.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\css\bootstrap-theme.min.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\css\bootstrap-theme.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\css\bootstrap-datetimepicker.min.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\css\bootstrap-colorpicker.min.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\css\bootstrap-colorpicker.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\bootstrap\css\boostrap-plugins.min.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\wrapper\BootstrapNotebookWrapper.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\wrapper\BootstrapFormWrapper.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\wrapper\BootstrapFormBuilder.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\wrapper\BootstrapDatagridWrapper.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\wrapper\AdiantiUIBuilder.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\wrapper\AdiantiPDFDesigner.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\wrapper\TQuickNotebookForm.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\wrapper\TQuickGrid.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\wrapper\TQuickForm.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\wrapper\TDBSortList.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\wrapper\TDBSelect.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\wrapper\TDBSeekButton.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\wrapper\TDBRadioGroup.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\wrapper\TDBMultiSearch.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\wrapper\TDBEntry.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\wrapper\TDBCombo.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\wrapper\TDBCheckGroup.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\util\TXMLBreadCrumb.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\util\TTreeView.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\util\TTextDisplay.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\util\TSourceCode.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\util\TProgressBar.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\util\TImage.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\util\THyperLink.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\util\TFullCalendar.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\util\TExceptionView.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\util\TDropDown.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\util\TCalendar.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\util\TBreadCrumb.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\util\TActionLink.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\template\THtmlRenderer.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\menu\TMenuItem.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\menu\TMenuBar.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\menu\TMenu.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TText.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TSpinner.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TSortList.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TSlider.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TSelect.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TSeekButton.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TRadioGroup.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TRadioButton.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TPassword.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TMultiSearch.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TMultiFile.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TMultiField.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TLabel.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TIcon.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\THtmlEditor.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\THidden.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TForm.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TFile.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TField.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TEntry.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TDateTime.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TDate.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TComboCombined.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TCombo.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TColor.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TCheckGroup.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TCheckButton.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\TButton.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\AdiantiWidgetInterface.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\form\AdiantiFormInterface.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\dialog\TQuestion.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\dialog\TMessage.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\dialog\TInputDialog.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\dialog\TAlert.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\datagrid\TPageNavigation.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\datagrid\TDataGridColumn.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\datagrid\TDataGridActionGroup.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\datagrid\TDataGridAction.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\datagrid\TDataGrid.php" crc="1491590716"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\container\TVBox.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\container\TTableRow.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\container\TTableCell.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\container\TTable.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\container\TScroll.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\container\TPanelGroup.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\container\TPanel.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\container\TNotebook.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\container\TJQueryDialog.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\container\THBox.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\container\TFrame.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\container\TExpander.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\base\TStyle.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\base\TScript.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\base\TElement.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\widget\.htaccess" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\validator\TRequiredValidator.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\validator\TNumericValidator.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\validator\TMinValueValidator.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\validator\TMinLengthValidator.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\validator\TMaxValueValidator.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\validator\TMaxLengthValidator.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\validator\TFieldValidator.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\validator\TEmailValidator.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\validator\TCPFValidator.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\validator\TCNPJValidator.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\service\AdiantiUploaderService.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\service\AdiantiMultiSearchService.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\service\AdiantiAutocompleteService.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\registry\TSession.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\registry\TAPCache.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\registry\AdiantiRegistryInterface.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\log\TLoggerXML.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\log\TLoggerTXT.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\log\TLoggerSTD.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\log\TLoggerHTML.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\log\TLogger.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\log\AdiantiLoggerInterface.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\twindow\twindow.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\ttreeview\ttreeview.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\ttable\ttable.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tspinner\tspinner.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tspinner\tspinner.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tsourcecode\tsourcecode.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tsortlist\tsortlist.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tsortlist\tsortlist.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tslider\tslider.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tselect\tselect.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tseekbutton\tseekbutton.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tseekbutton\tseekbutton.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tscroll\tscroll.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tradiogroup\tradiogroup.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tpagenavigation\tpagenavigation.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tooltip\tooltip.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tnotebook\tnotebook.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tmultisearch\tmultisearch.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tmultisearch\select2_locale_pt.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tmultisearch\select2_locale_es.js" crc="1522819824"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tmultifile\tmultifile.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tmultifield\tmultifield.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tmultifield\tmultifield.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tmenubar\tmenubar.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tmenu\tmenu.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tlabel\tlabel.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tjquerydialog\tjquerydialog.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\ticon\ticon.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\ticon\ticon.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\thtmleditor\thtmleditor.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tfullcalendar\tfullcalendar.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tframe\tframe.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tform\tform.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tform\tform.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tfile\tfile.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tfield\tfield.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tfield\tfield.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\texpander\texpander.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tentry\tentry.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tdialog\tdialog.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tdialog\tdialog.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tdbmultisearch\tdbmultisearch.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tdbentry\tdbentry.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tdatetime\tdatetime.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tdatetime\tdatetime.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tdate\tdate.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tdate\tdate.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tdatagrid\tdatagrid.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tdatagrid\tdatagrid.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tcombocombined\tcombocombined.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tcombo\tcombo.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tcombo\tcombo.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tcolor\tcolor.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tcolor\tcolor.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tcheckgroup\tcheckgroup.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tcalendar\tcalendar.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tbutton\tbutton.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\tbreadcrumb\tbreadcrumb.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\talert\talert.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\components.min.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\components.min.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\components.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\components.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\adianti.min.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\adianti.min.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\adianti.js" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\include\adianti.css" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\database\TTransaction.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\database\TSqlUpdate.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\database\TSqlStatement.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\database\TSqlSelect.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\database\TSqlInsert.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\database\TSqlDelete.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\database\TRepository.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\database\TRecord.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\database\TFilter.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\database\TExpression.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\database\TCriteria.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\database\TConnection.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\database\.htaccess" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\core\AdiantiCoreTranslator.php" crc="1522819616"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\core\AdiantiCoreLoader.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\core\AdiantiCoreApplication.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\core\AdiantiClassMap.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\core\AdiantiApplicationLoader.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\core\AdiantiApplicationConfig.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\control\TWindow.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\control\TPage.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\control\TAction.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\control\.htaccess" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\base\TStandardSeek.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\base\TStandardList.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\base\TStandardFormList.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\base\TStandardForm.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\base\AdiantiStandardListTrait.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\base\AdiantiStandardFormTrait.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\base\AdiantiStandardFormListTrait.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\base\AdiantiStandardControlTrait.php" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\lib\adianti\base\.htaccess" crc="1481693160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\files\documents\.htaccess" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\files\.htaccess" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Session\drivers\Session_redis_driver.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Session\drivers\Session_memcached_driver.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Session\drivers\Session_files_driver.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Session\drivers\Session_database_driver.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Session\drivers\index.html" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Session\SessionHandlerInterface.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Session\Session_driver.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Session\Session.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Session\index.html" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Javascript\Jquery.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Javascript\index.html" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Cache\drivers\index.html" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Cache\drivers\Cache_wincache.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Cache\drivers\Cache_redis.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Cache\drivers\Cache_memcached.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Cache\drivers\Cache_file.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Cache\drivers\Cache_dummy.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Cache\drivers\Cache_apc.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Cache\index.html" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Cache\Cache.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Zip.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Xmlrpcs.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Xmlrpc.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\User_agent.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Upload.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Unit_test.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Typography.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Trackback.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Table.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Profiler.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Parser.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Pagination.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Migration.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Javascript.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\index.html" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Image_lib.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Ftp.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Form_validation.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Encryption.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Encrypt.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Email.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Driver.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Cart.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\libraries\Calendar.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\language\english\upload_lang.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\language\english\unit_test_lang.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\language\english\profiler_lang.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\language\english\pagination_lang.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\language\english\number_lang.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\language\english\migration_lang.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\language\english\index.html" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\language\english\imglib_lang.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\language\english\ftp_lang.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\language\english\form_validation_lang.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\language\english\email_lang.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\language\english\db_lang.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\language\english\date_lang.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\language\english\calendar_lang.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\language\index.html" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\xml_helper.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\url_helper.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\typography_helper.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\text_helper.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\string_helper.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\smiley_helper.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\security_helper.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\path_helper.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\number_helper.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\language_helper.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\inflector_helper.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\index.html" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\html_helper.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\form_helper.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\file_helper.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\email_helper.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\download_helper.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\directory_helper.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\date_helper.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\cookie_helper.php" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\captcha_helper.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\helpers\array_helper.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\fonts\index.html" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\sqlsrv\sqlsrv_utility.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\sqlsrv\sqlsrv_result.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\sqlsrv\sqlsrv_forge.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\sqlsrv\sqlsrv_driver.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\sqlsrv\index.html" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\sqlite3\sqlite3_utility.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\sqlite3\sqlite3_result.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\sqlite3\sqlite3_forge.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\sqlite3\sqlite3_driver.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\sqlite3\index.html" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\sqlite\sqlite_utility.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\sqlite\sqlite_result.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\sqlite\sqlite_forge.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\sqlite\sqlite_driver.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\sqlite\index.html" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\postgre\postgre_utility.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\postgre\postgre_result.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\postgre\postgre_forge.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\postgre\postgre_driver.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\postgre\index.html" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\subdrivers\pdo_sqlsrv_forge.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\subdrivers\pdo_sqlsrv_driver.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\subdrivers\pdo_sqlite_forge.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\subdrivers\pdo_sqlite_driver.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\subdrivers\pdo_pgsql_forge.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\subdrivers\pdo_pgsql_driver.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\subdrivers\pdo_odbc_forge.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\subdrivers\pdo_odbc_driver.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\subdrivers\pdo_oci_forge.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\subdrivers\pdo_oci_driver.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\subdrivers\pdo_mysql_forge.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\subdrivers\pdo_mysql_driver.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\subdrivers\pdo_informix_forge.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\subdrivers\pdo_informix_driver.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\subdrivers\pdo_ibm_forge.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\subdrivers\pdo_ibm_driver.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\subdrivers\pdo_firebird_forge.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\subdrivers\pdo_firebird_driver.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\subdrivers\pdo_dblib_forge.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\subdrivers\pdo_dblib_driver.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\subdrivers\pdo_cubrid_forge.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\subdrivers\pdo_cubrid_driver.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\subdrivers\pdo_4d_forge.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\subdrivers\pdo_4d_driver.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\subdrivers\index.html" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\pdo_utility.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\pdo_result.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\pdo_forge.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\pdo_driver.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\pdo\index.html" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\odbc\odbc_utility.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\odbc\odbc_result.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\odbc\odbc_forge.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\odbc\odbc_driver.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\odbc\index.html" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\oci8\oci8_utility.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\oci8\oci8_result.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\oci8\oci8_forge.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\oci8\oci8_driver.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\oci8\index.html" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\mysqli\mysqli_utility.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\mysqli\mysqli_result.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\mysqli\mysqli_forge.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\mysqli\mysqli_driver.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\mysqli\index.html" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\mysql\mysql_utility.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\mysql\mysql_result.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\mysql\mysql_forge.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\mysql\mysql_driver.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\mysql\index.html" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\mssql\mssql_utility.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\mssql\mssql_result.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\mssql\mssql_forge.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\mssql\mssql_driver.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\mssql\index.html" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\ibase\index.html" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\ibase\ibase_utility.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\ibase\ibase_result.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\ibase\ibase_forge.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\ibase\ibase_driver.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\cubrid\index.html" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\cubrid\cubrid_utility.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\cubrid\cubrid_result.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\cubrid\cubrid_forge.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\cubrid\cubrid_driver.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\drivers\index.html" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\index.html" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\DB_utility.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\DB_result.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\DB_query_builder.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\DB_forge.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\DB_driver.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\DB_cache.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\database\DB.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\core\compat\standard.php" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\core\compat\password.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\core\compat\mbstring.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\core\compat\index.html" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\core\compat\hash.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\core\Utf8.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\core\URI.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\core\Security.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\core\Router.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\core\Output.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\core\Model.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\core\Log.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\core\Loader.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\core\Lang.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\core\Input.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\core\index.html" crc="1501577169"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\core\Hooks.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\core\Exceptions.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\core\Controller.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\core\Config.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\core\Common.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\core\CodeIgniter.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\core\Benchmark.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\index.html" crc="1501577170"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\system\.htaccess" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\views\errors\html\index.html" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\views\errors\html\error_php.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\views\errors\html\error_general.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\views\errors\html\error_exception.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\views\errors\html\error_db.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\views\errors\html\error_404.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\views\errors\cli\index.html" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\views\errors\cli\error_php.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\views\errors\cli\error_general.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\views\errors\cli\error_exception.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\views\errors\cli\error_db.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\views\errors\cli\error_404.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\views\errors\index.html" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\views\welcome_message.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\views\videos.php" crc="1501664893"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\views\main.php" crc="1501702279"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\views\layout.php" crc="1501707724"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\views\indicedetalle.php" crc="1501632363"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\views\indicecancionesIdioma.php" crc="1501638863"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\views\indicecanciones.php" crc="1501582970"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\views\indicealbum.php" crc="1501638916"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\views\index.html" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\views\detallealbum.php" crc="1501706452"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\views\cancion.php" crc="1501635150"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\views\busqueda.php" crc="1501660125"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\third_party\index.html" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\models\index.html" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\logs\index.html" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\libraries\index.html" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\language\english\index.html" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\language\index.html" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\hooks\index.html" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\helpers\MY_url_helper.php" crc="1501631303"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\helpers\index.html" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\core\index.html" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\controllers\Welcome.php" crc="1532765116"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\controllers\index.html" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\config\user_agents.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\config\smileys.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\config\routes.php" crc="1532758031"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\config\profiler.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\config\mimes.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\config\migration.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\config\memcached.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\config\index.html" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\config\hooks.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\config\foreign_chars.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\config\doctypes.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\config\database.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\config\constants.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\config\config.php" crc="1532676328"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\config\autoload.php" crc="1505936423"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\cache\index.html" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\cache\.htaccess" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\index.html" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\application\.htaccess" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\CodeIgniter\index.php" crc="1532752786"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\view\.htaccess" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\js\pages\dashboard2.js" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\js\pages\dashboard.js" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\js\demo.js" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\js\app.min.js" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\js\app.js" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\skin-yellow.min.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\skin-yellow.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\skin-yellow-light.min.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\skin-yellow-light.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\skin-red.min.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\skin-red.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\skin-red-light.min.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\skin-red-light.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\skin-purple.min.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\skin-purple.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\skin-purple-light.min.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\skin-purple-light.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\skin-green.min.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\skin-green.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\skin-green-light.min.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\skin-green-light.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\skin-blue.min.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\skin-blue.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\skin-blue-light.min.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\skin-blue-light.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\skin-black.min.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\skin-black.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\skin-black-light.min.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\skin-black-light.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\_all-skins.min.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\skins\_all-skins.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\ionicons-2.0.1\css\ionicons.min.css" crc="1420304550"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\ionicons-2.0.1\css\ionicons.css" crc="1420304550"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\ionicons.min.css" crc="1498118928"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\AdminLTE.min.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\css\AdminLTE.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\login.html" crc="1505234840"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\libraries.html" crc="1523745141"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\layout.html" crc="1523145736"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme3\application.css" crc="1497407590"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme2\metisMenu\metisMenu.min.js" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme2\metisMenu\metisMenu.min.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme2\metisMenu\metisMenu.js" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme2\metisMenu\metisMenu.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme2\sb-admin-2.js" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme2\sb-admin-2.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme2\red.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme2\login.html" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme2\libraries.html" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme2\layout.html" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme2\green.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme2\gray.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme2\application.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme1\login.html" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme1\libraries.html" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme1\layout.html" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\theme1\application.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\js\quicksand\setting.js" crc="1368775200"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\js\quicksand\jquery.quicksand.js" crc="1367820900"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\js\portfolio\setting.js" crc="1368775500"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\js\portfolio\jquery.quicksand.js" crc="1311356760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\js\owl-carousel\assets\owl.carousel.min.css" crc="1461171600"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\js\owl-carousel\assets\owl.carousel.css" crc="1461171600"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\js\owl-carousel\owl.carousel.min.js" crc="1461171600"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\js\owl-carousel\owl.carousel.js" crc="1461171600"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\js\google-code-prettify\prettify.js" crc="1366995960"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\js\google-code-prettify\prettify.css" crc="1355261040"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\js\flexslider\setting.js" crc="1344405180"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\js\flexslider\jquery.flexslider.js" crc="1344589080"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\js\validate.js" crc="1367895780"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\js\jquery.js" crc="1366996440"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\js\jquery.flexslider.js" crc="1352997060"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\js\jquery.fancybox.pack.js" crc="1366488900"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\js\jquery.fancybox-media.js" crc="1358323800"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\js\jquery.easing.1.3.js" crc="1332633600"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\js\custom.js" crc="1392403680"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\js\contact.js" crc="1410387780"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\js\bootstrap.min.js" crc="1391089500"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\js\animate.js" crc="1365542760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\errors\html\index.html" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\errors\html\error_php.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\errors\html\error_general.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\errors\html\error_exception.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\errors\html\error_db.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\errors\html\error_404.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\errors\cli\index.html" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\errors\cli\error_php.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\errors\cli\error_general.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\errors\cli\error_exception.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\errors\cli\error_db.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\errors\cli\error_404.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\errors\index.html" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\css\fancybox\jquery.fancybox.css" crc="1417374120"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\css\style.css" crc="1505933486"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\css\jcarousel.css" crc="1505674201"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\css\font-awesome.css" crc="1392354420"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\css\flexslider.css" crc="1422855060"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\css\custom-fonts.css" crc="1392367080"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\css\bootstrap.min.css" crc="1505684328"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\css\application.css" crc="1497407590"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\css\animate.css" crc="1363086000"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\css\AdminLTE.min.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\view_vista.php" crc="1505776028"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\view_curso.php" crc="1505935896"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\view_blog.php" crc="1505935954"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\view_article.php" crc="1505939970"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\main.php" crc="1505939885"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\login.html" crc="1505234840"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\libraries.html" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\layout.php" crc="1506353039"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\layout.html" crc="1505944382"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\error_404.php" crc="1505944080"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front2\contact.php" crc="1430494680"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\vistas\vista_generica.php" crc="1532765130"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\vistas\propuestas_item.php" crc="1532754927"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\vistas\noticia_item.php" crc="1532753410"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\js\script.js" crc="1532742724"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\js\script-1.js" crc="1532742732"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\js\main.js" crc="1532747020"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\js\css3-animate-it.js" crc="1532741151"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\js\contact.js" crc="1410387780"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\errors\html\index.html" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\errors\html\error_php.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\errors\html\error_general.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\errors\html\error_exception.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\errors\html\error_db.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\errors\html\error_404.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\errors\cli\index.html" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\errors\cli\error_php.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\errors\cli\error_general.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\errors\cli\error_exception.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\errors\cli\error_db.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\errors\cli\error_404.php" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\errors\index.html" crc="1501577168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\css\racm5.css" crc="1532740027"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\css\rac5.css" crc="1532767443"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\css\m.css" crc="1532673242"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\css\estilos.css" crc="1532673194"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\css\animations.css" crc="1532739090"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\view_vista.php" crc="1532668109"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\view_curso.php" crc="1532666135"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\view_blog.php" crc="1505935954"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\view_article.php" crc="1505939970"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\propuestas.php" crc="1532754004"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\plataforma.php" crc="1532765590"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\noticias.php" crc="1532751869"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\NewFile.php" crc="1532759782"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\meta.php" crc="1532746031"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\menu.php" crc="1532748381"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\main.php" crc="1532767752"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\login.html" crc="1505234840"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\libraries.html" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\layout.php" crc="1532676134"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\layout.html" crc="1505944382"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\foot.php" crc="1532747308"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\error_404.php" crc="1505944080"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\Copia de pagina.php" crc="1532742216"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\contact.php" crc="1430494680"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\templates\front1\activismo.php" crc="1532759728"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\service\SystemDocumentUploaderService.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\service\SystemDatabaseInformationService.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\resources\welcome.html" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\resources\webmessageformview.html" crc="1505807865"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\resources\web_mail_folders.html" crc="1505804544"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\resources\vistatarea.html" crc="1501836088"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\resources\vistapaquete.html" crc="1501890064"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\resources\vistagrupohorario.html" crc="1523243574"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\resources\vistaexamen.html" crc="1501838126"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\resources\vista.html" crc="1523242504"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\resources\viewcliente.html" crc="1501834150"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\resources\viewclase.html" crc="1501834160"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\resources\systemnotificationview.html" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\resources\systemmessageformview.html" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\resources\styles.css" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\resources\public.html" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\resources\profile.html" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\resources\main.html" crc="1525130722"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\resources\mail_folders.html" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\resources\google_pie_chart.html" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\resources\google_line_chart.html" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\resources\google_bar_chart.html" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\resources\checkbox.html" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\resources\bemvindo.html" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\reports\test.rdl.html" crc="1493149908"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\reports\Tcptests.rdl.html" crc="1493162064"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\reports\Seek.rdl.html" crc="1493342166"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\reports\Report.rdl.html" crc="1502491982"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\reports\holamundo.form.xml" crc="1492330940"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\reports\form.pdf.xml" crc="1491639532"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\reports\DocentesInvestigando.rdl.html" crc="1493164060"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\reports\Bootstraptest.rdl.html" crc="1493583890"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\reports\.htaccess" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\output\ViewDocentesInvestigando.html" crc="1493342175"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\output\ViewBalance.html" crc="1525131380"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\output\Usuarioflujo.html" crc="1493143890"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\output\Procesoflujo.html" crc="1493159890"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\output\CLASE1.html" crc="1493602198"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\output\.htaccess" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\log\SystemSqlLog.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\log\SystemChangeLogTrait.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\log\SystemChangeLog.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\log\SystemAccessLog.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\communication\SystemNotification.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\communication\SystemMessage.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\communication\SystemDocumentUser.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\communication\SystemDocumentGroup.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\communication\SystemDocumentCategory.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\communication\SystemDocument.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\admin\SystemUserProgram.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\admin\SystemUserGroup.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\admin\SystemUser.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\admin\SystemUnit.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\admin\SystemProgram.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\admin\SystemPreference.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\admin\SystemPermission.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\admin\SystemGroupProgram.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\admin\SystemGroup.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\admin\.htaccess" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\WebMessage.class.php" crc="1505806518"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\ViewArticulo.class.php" crc="1532671519"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\traitBlogArticulo.php" crc="1505702863"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\BlogComentario.class.php" crc="1505697501"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\BlogCategoria.class.php" crc="1505697491"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\BlogArticulo.class.php" crc="1532749301"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\model\.htaccess" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\widget\TTableWriterCSV.class.php" crc="1506579308"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\widget\TStateAdvice.php" crc="1477698800"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\widget\TLink.php" crc="1477702678"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\widget\Thumb.php" crc="1505857665"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\widget\TAccordion.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\widget\BootstrapFormBuilderLTE.php" crc="1498371822"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\validator\TDateValidator.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\util\TMail.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\util\TApplicationFileSessionHandler.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\util\ApplicationTranslator.class.php" crc="1522819515"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\util\.htaccess" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\rtf\PHPRtfLite\Table\Row.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\rtf\PHPRtfLite\Table\Column.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\rtf\PHPRtfLite\Table\Cell.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\rtf\PHPRtfLite\DocHeadDefinition\Note.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\rtf\PHPRtfLite\Container\Section.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\rtf\PHPRtfLite\Container\Header.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\rtf\PHPRtfLite\Container\Footer.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\rtf\PHPRtfLite\Border\Format.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\rtf\PHPRtfLite\Utf8.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\rtf\PHPRtfLite\Table.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\rtf\PHPRtfLite\ParFormat.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\rtf\PHPRtfLite\Note.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\rtf\PHPRtfLite\Image.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\rtf\PHPRtfLite\Font.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\rtf\PHPRtfLite\Exception.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\rtf\PHPRtfLite\Container.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\rtf\PHPRtfLite\Border.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\rtf\PHPRtfLite\Autoloader.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\rtf\PHPRtfLite.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\reports\TTableWriterRTF.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\reports\TTableWriterPDF.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\reports\TTableWriterHTML.class.php" crc="1506576490"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\reports\TAdiantiTableRow.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\reports\TAdiantiTableCell.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\reports\TAdiantiTable.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\reports\TAdiantiStyle.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\reports\TAdiantiElement.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\reports\ITableWriter.iface.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\pdf\font\makefont\ttfparser.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\pdf\font\makefont\makefont.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\pdf\font\zapfdingbats.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\pdf\font\timesi.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\pdf\font\timesbi.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\pdf\font\timesb.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\pdf\font\times.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\pdf\font\symbol.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\pdf\font\helveticai.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\pdf\font\helveticabi.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\pdf\font\helveticab.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\pdf\font\helvetica.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\pdf\font\courieri.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\pdf\font\courierbi.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\pdf\font\courierb.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\pdf\font\courier.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\pdf\license.txt" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\pdf\FPDF.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\menu\AdiantiMenuBuilder.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\mail\PHPMailer.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\lib\include\application.js" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\forms\w.xml" crc="1492553804"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\forms\holamundo.form.xml" crc="1492718378"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\forms\form.form.xml" crc="1492728508"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\forms\.htaccess" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\database\permission.xml" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\database\permission.sql" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\database\permission-update.sql" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\database\log.sql" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\database\communication.sql" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\database\.htaccess" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\web_comunicacion\WebMessageList.class.php" crc="1524716619"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\web_comunicacion\WebMessageFormView.class.php" crc="1505852401"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\web_comunicacion\WebMessageForm.class.php" crc="1524716252"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\public\PublicView.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\log\SystemSqlLogList.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\log\SystemChangeLogView.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\log\SystemAccessLogStats.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\log\SystemAccessLogList.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\communication\SystemSharedDocumentList.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\communication\SystemNotificationList.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\communication\SystemNotificationFormView.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\communication\SystemMessageList.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\communication\SystemMessageFormView.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\communication\SystemMessageForm.class.php" crc="1524716158"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\communication\SystemDocumentUploadForm.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\communication\SystemDocumentList.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\communication\SystemDocumentForm.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\communication\SystemDocumentCategoryFormList.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\admin\SystemUserList.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\admin\SystemUserForm.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\admin\SystemUnitList.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\admin\SystemUnitForm.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\admin\SystemSupportForm.class.php" crc="1524716223"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\admin\SystemSQLPanel.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\admin\SystemProgramList.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\admin\SystemProgramForm.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\admin\SystemProfileView.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\admin\SystemProfileForm.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\admin\SystemPreferenceForm.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\admin\SystemPHPInfoView.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\admin\SystemGroupList.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\admin\SystemGroupForm.class.php" crc="1502246588"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\admin\LoginForm.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\admin\EmptyPage.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\WelcomeView.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\WebAlertMessageList.class.php" crc="1505810293"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\VistaTarea.class.php" crc="1501836060"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\VistaPaquete.class.php" crc="1501890118"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\VistaGrupoHorario.class.php" crc="1523243483"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\VistaExamen.class.php" crc="1501838142"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\VistaClase.class.php" crc="1501834248"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\ViewCliente.class.php" crc="1501238902"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\Test.class.php" crc="1498112350"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\SeleccionarCliente.class.php" crc="1502513576"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\SearchBox.class.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\ReportBalance.class.php" crc="1523734620"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\Report.class.php" crc="1502492154"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\PaqueteClase.class.php" crc="1523505004"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\Panel.class.php" crc="1525131463"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\PagoDocentes.class.php" crc="1498801434"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\NotificationList.class.php" crc="1505810530"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\MessageList.class.php" crc="1505810570"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\ListTareas.class.php" crc="1501897326"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\ListProfesor.class.php" crc="1497850198"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\ListPlanillaProfesor.class.php" crc="1523735629"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\ListPaquete.class.php" crc="1505236763"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\ListGrupos.class.php" crc="1502533900"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\ListGrupoCliente.class.php" crc="1525131770"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\ListExamen.class.php" crc="1505235379"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\ListCobroGrupos.class.php" crc="1501896276"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\ListCliente.class.php" crc="1501840030"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\ListClases.class.php" crc="1501914428"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\ListArticulo.class.php" crc="1505706846"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\FormTarea.class.php" crc="1505227263"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\FormProfesor.class.php" crc="1502533958"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\FormPaquete.class.php" crc="1506662592"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\FormPagoTarea.class.php" crc="1505084653"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\FormPagoPaquete.class.php" crc="1507838143"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\FormPagoExamen.class.php" crc="1498786798"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\FormPagoClase.class.php" crc="1501877644"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\FormListSalon.class.php" crc="1523316693"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\FormListInstitucion.class.php" crc="1501841998"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\FormListCurso.class.php" crc="1501842290"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\FormGrupo.class.php" crc="1524718319"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\FormExamen.class.php" crc="1505227263"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\FormEgreso.class.php" crc="1506016967"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\FormEditTarea.class.php" crc="1505407296"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\FormEditPaquete.php" crc="1501927278"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\FormEditExamen.class.php" crc="1505337230"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\FormEditClase.class.php" crc="1523504177"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\FormContacto.class.php" crc="1505934434"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\FormCobroGrupo.class.php" crc="1501881108"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\FormClienteNuevo.class.php" crc="1505177174"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\FormCliente.class.php" crc="1506661808"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\FormClase.class.php" crc="1523316923"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\FormCategoria.class.php" crc="1505698168"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\FormArticulo.class.php" crc="1532752578"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\FormAgregarClienteGrupo.class.php" crc="1502533064"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\DetallePlanillaProfesor.class.php" crc="1528550626"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\ControlHorarioGrupo.class.php" crc="1523777986"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\CommonPage.class.php" crc="1505096155"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\CalendarioServicio.class.php" crc="1506289734"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\CalendarHorarioGrupoForm.class.php" crc="1524713098"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\CalendarEventForm.class.php" crc="1522988133"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\control\.htaccess" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\config\sample.ini" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\config\permission.ini" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\config\log.ini" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\config\database.ini" crc="1532671204"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\config\communication.ini" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\config\application.ini" crc="1532668515"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\app\config\.htaccess" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\administracion\index.php" crc="1505934200"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\Untitled.xml" crc="1497832351"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\puertafalsa.php" crc="1507869016"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\menu.xml" crc="1523735374"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\init.php" crc="1532758011"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\index_2.html" crc="1505063620"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\index.php" crc="1532675472"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\helper.php" crc="1523171768"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\engine.php" crc="1506626715"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\download.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\cmd.php" crc="1480454760"/>
+		<file name="D:\UniServerZ\www\adianti\ismodes\adminer-4.3.1.php" crc="1505064666"/>
+	</filescache>
+</project>

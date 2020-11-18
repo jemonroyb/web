@@ -1,0 +1,739 @@
+<!--[main]-->
+<div class="row">
+	<div class="col-lg-3 col-xs-12">
+		<!-- small box -->
+		<div class="small-box bg-aqua" style="background: #265397 !important;">
+			<div class="inner">
+				<h3 id="total_votos_region">
+					Sumando...
+				</h3>
+
+				<p>
+					Total Votos Ismodes
+				</p>
+			</div>
+			<div class="icon">
+				<i class="ion ion-easel">
+				</i>
+			</div>
+			<div style="text-align: center">
+				<img width="100%" src="app/resources/ismodes.jpg"/>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="col-lg-9 col-xs-12">
+		<!-- MAP & BOX PANE -->
+		<div class="box box-primary">
+			<div class="box-header with-border">
+				<h3 class="box-title">
+					Votos en provincias
+				</h3>
+			</div>
+			<!-- /.box-header -->
+			<div class="box-body no-padding">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+
+						<div class="chart-container"  style="position: relative; height:40vh; width:80vw">
+							<canvas id="myChart">
+							</canvas>
+						</div>
+
+
+						<script>
+							// Global Options
+							Chart.defaults.global.defaultFontFamily = 'Arial';
+							Chart.defaults.global.defaultFontSize = 12;
+							Chart.defaults.global.defaultFontColor = '#777';
+
+
+							var massPopChart = set_chart_bar('myChart',[0],['votos']);
+
+							var prov1 = set_chart_bar('prov1',[0],['votos']);
+							var prov2 = set_chart_bar('prov2',[0],['votos']);
+							var prov3 = set_chart_bar('prov3',[0],['votos']);
+							var prov4 = set_chart_bar('prov4',[0],['votos']);
+							var prov5 = set_chart_bar('prov5',[0],['votos']);
+							var prov6 = set_chart_bar('prov6',[0],['votos']);
+							var prov7 = set_chart_bar('prov7',[0],['votos']);
+							var prov8 = set_chart_bar('prov8',[0],['votos']);
+
+
+
+							function set_chart_bar(idobjeto,xdata,xlabels)
+							{
+								var myChart = document.getElementById(idobjeto).getContext('2d');
+								myChart.canvas.parentNode.style.height = '100%';
+								myChart.canvas.parentNode.style.width = '100%';
+
+								var massPopChart = new Chart(myChart,
+									{
+										type:'horizontalBar', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
+										data:
+										{
+											labels:xlabels,
+											datasets:[
+												{
+													label:'Votos',
+													data:xdata,
+													backgroundColor:'#265397',
+													borderWidth:0,
+													borderColor:'#777',
+													hoverBorderWidth:0,
+													hoverBorderColor:'#000'
+												}]
+										},
+										options:
+										{
+											title:
+											{
+												display:false,
+												text:'Cantidad de votos en provincias',
+												fontSize:20
+											},
+											legend:
+											{
+												display:false,
+												position:'right',
+												labels:
+												{
+													fontColor:'#000'
+												}
+											},
+											layout:
+											{
+												padding:
+												{
+													left:5,
+													right:0,
+													bottom:0,
+													top:0
+												}
+											}
+										}
+									});
+								return massPopChart;
+							}
+
+							function update_votos_region()
+							{
+
+								$.ajax(
+									{
+										data:"h="+Math.random(),
+										type: "GET",
+										url: "StadisticRestServer.php?class=Estadistica&method=resumen_votos_region",
+										dataType: 'json',
+										success: function(respuesta)
+										{
+											$('#total_votos_region').html(respuesta.data['total_votos_region']);
+
+											massPopChart.data.datasets[0].data=respuesta.data['provincias_votos'];
+											massPopChart.data.labels = respuesta.data['provincias'];
+											massPopChart.update();
+
+
+
+											prov1.data.datasets[0].data=respuesta.data['distritos_votos'][2];
+											prov1.data.labels =respuesta.data['distritos'][2];
+											prov1.update();
+
+											prov2.data.datasets[0].data=respuesta.data['distritos_votos'][3];
+											prov2.data.labels =respuesta.data['distritos'][3];
+											prov2.update();
+
+											prov3.data.datasets[0].data=respuesta.data['distritos_votos'][6];
+											prov3.data.labels =respuesta.data['distritos'][6];
+											prov3.update();
+
+											prov4.data.datasets[0].data=respuesta.data['distritos_votos'][7];
+											prov4.data.labels =respuesta.data['distritos'][7];
+											prov4.update();
+
+											prov5.data.datasets[0].data=respuesta.data['distritos_votos'][8];
+											prov5.data.labels =respuesta.data['distritos'][8];
+											prov5.update();
+
+											prov6.data.datasets[0].data=respuesta.data['distritos_votos'][9];
+											prov6.data.labels =respuesta.data['distritos'][9];
+											prov6.update();
+
+											prov7.data.datasets[0].data=respuesta.data['distritos_votos'][10];
+											prov7.data.labels =respuesta.data['distritos'][10];
+											prov7.update();
+
+											prov8.data.datasets[0].data=respuesta.data['distritos_votos'][11];
+											prov8.data.labels =respuesta.data['distritos'][11];
+											prov8.update();
+
+										}
+									});
+
+
+
+
+
+
+
+							}
+
+							update_votos_region()
+							//setInterval( actualizar, 5000);
+
+
+
+						</script>
+					</div>
+					<!-- /.col -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.box-body -->
+		</div>
+	</div>
+
+</div>
+
+
+<div class="row">
+	<div class="col-lg-6 col-xs-12">
+		<!-- MAP & BOX PANE -->
+		<div class="box box-primary">
+			<div class="box-header with-border">
+				<h3 class="box-title">
+					AREQUIPA
+				</h3>
+			</div>
+			<!-- /.box-header -->
+			<div class="box-body no-padding">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+
+						<div class="chart-container" style="position: relative; height:40vh; width:550px">
+							<canvas id="prov1">
+							</canvas>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-6 col-xs-12">
+		<!-- MAP & BOX PANE -->
+		<div class="box box-primary">
+			<div class="box-header with-border">
+				<h3 class="box-title">
+					ISLAY
+				</h3>
+			</div>
+			<!-- /.box-header -->
+			<div class="box-body no-padding">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+
+						<div class="chart-container"  style="position: relative; height:40vh; width:80vw">
+							<canvas id="prov2">
+							</canvas>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-6 col-xs-12">
+		<!-- MAP & BOX PANE -->
+		<div class="box box-primary">
+			<div class="box-header with-border">
+				<h3 class="box-title">
+					CAMANÁ
+				</h3>
+			</div>
+			<!-- /.box-header -->
+			<div class="box-body no-padding">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+
+						<div class="chart-container"  style="position: relative; height:40vh; width:80vw">
+							<canvas id="prov3">
+							</canvas>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-6 col-xs-12">
+		<!-- MAP & BOX PANE -->
+		<div class="box box-primary">
+			<div class="box-header with-border">
+				<h3 class="box-title">
+					CARAVELÍ
+				</h3>
+			</div>
+			<!-- /.box-header -->
+			<div class="box-body no-padding">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+
+						<div class="chart-container"  style="position: relative; height:60vh; width:80vw">
+							<canvas id="prov4">
+							</canvas>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-6 col-xs-12">
+		<!-- MAP & BOX PANE -->
+		<div class="box box-primary">
+			<div class="box-header with-border">
+				<h3 class="box-title">
+					CASTILLA
+				</h3>
+			</div>
+			<!-- /.box-header -->
+			<div class="box-body no-padding">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+
+						<div class="chart-container"  style="position: relative; height:40vh; width:80vw">
+							<canvas id="prov5">
+							</canvas>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-6 col-xs-12">
+		<!-- MAP & BOX PANE -->
+		<div class="box box-primary">
+			<div class="box-header with-border">
+				<h3 class="box-title">
+					CAYLLOMA
+				</h3>
+			</div>
+			<!-- /.box-header -->
+			<div class="box-body no-padding">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+
+						<div class="chart-container"  style="position: relative; height:40vh; width:80vw">
+							<canvas id="prov6">
+							</canvas>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-6 col-xs-12">
+		<!-- MAP & BOX PANE -->
+		<div class="box box-primary">
+			<div class="box-header with-border">
+				<h3 class="box-title">
+					CONDESUYOS
+				</h3>
+			</div>
+			<!-- /.box-header -->
+			<div class="box-body no-padding">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+
+						<div class="chart-container"  style="position: relative; height:40vh; width:80vw">
+							<canvas id="prov7">
+							</canvas>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-6 col-xs-12">
+		<!-- MAP & BOX PANE -->
+		<div class="box box-primary">
+			<div class="box-header with-border">
+				<h3 class="box-title">
+					LA UNIÓN
+				</h3>
+			</div>
+			<!-- /.box-header -->
+			<div class="box-body no-padding">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+
+						<div class="chart-container"  style="position: relative; height:40vh; width:80vw">
+							<canvas id="prov8">
+							</canvas>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<section class="content">
+
+
+	<!-- Main row -->
+	<div class="row">
+		<!-- Left col -->
+		<div class="col-md-12">
+			<!-- MAP & BOX PANE -->
+			<div class="box box-success">
+				<div class="box-header with-border">
+					<h3 class="box-title">
+						Locales de Votación
+					</h3>
+
+					<div class="box-tools pull-right">
+						<button type="button" class="btn btn-box-tool" data-widget="collapse">
+							<i class="fa fa-minus">
+							</i>
+						</button>
+						<button type="button" class="btn btn-box-tool" data-widget="remove">
+							<i class="fa fa-times">
+							</i>
+						</button>
+					</div>
+				</div>
+				<!-- /.box-header -->
+				<div class="box-body no-padding">
+					<div class="row">
+						<div class="col-md-8 col-sm-8">
+							<div class="pad">
+								<!-- Map will be created here -->
+
+								<script src="app/resources/map/jquery.mousewheel.min.js">
+								</script>
+								<script src="app/resources/map/jquery.nanoscroller.min.js">
+								</script>
+								<script src="app/resources/map/mapsvg.min.js">
+								</script>
+
+
+
+								<div id="mapsvg">
+								</div>
+
+								<script type="text/javascript">
+
+
+									function resumen_locales_provincia(id_provincia)
+									{
+										$.ajax(
+											{
+												data:"h="+Math.random(),
+												type: "GET",
+												url: "StadisticRestServer.php?class=Estadistica&method=resumen_provincia&id="+id_provincia,
+												dataType: 'json',
+												success: function(respuesta)
+												{
+													$('#total_locales').html(respuesta.data['total_locales']);
+													$('#local_ocupado').html(respuesta.data['total_asignados']);
+													$('#porcentaje_asignado').html(respuesta.data['porcentaje_asignado']);
+													$('#local_no_asignado').html(respuesta.data['total_no_asignados']);
+													$('#porcentaje_no_asignado').html(respuesta.data['porcentaje_no_asignado']);
+													$('#personero_mesa').html(respuesta.data['total_personeros']);
+													$('#personero_mesa_total').html(respuesta.data['total_personeros_provincia']);
+													$('#personero_mesa_faltante').html(respuesta.data['total_personeros_faltante']);
+
+												}
+											});
+									}
+
+
+									jQuery(document).ready(function()
+										{
+
+											jQuery("#mapsvg").mapSvg(
+												{
+													width: 250,height: 250,regions:
+													{
+														arequipa:
+														{
+															id: "arequipa",'id_no_spaces': "arequipa",data:
+															{
+																arequipa: "Hola Arequipa"
+															}
+														},camana:
+														{
+															id: "camana",'id_no_spaces': "camana",data:
+															{
+																camana: "Hola Camaná"
+															}
+														},caraveli:
+														{
+															id: "caraveli",'id_no_spaces': "caraveli",data:
+															{
+																caraveli: "Hola caraveli"
+															}
+														},castilla:
+														{
+															id: "castilla",'id_no_spaces': "castilla",data:
+															{
+																castilla: "Hola castilla"
+															}
+														},caylloma:
+														{
+															id: "caylloma",'id_no_spaces': "caylloma",data:
+															{
+																caylloma: "hola Caylloma"
+															}
+														},condesuyos:
+														{
+															id: "condesuyos",'id_no_spaces': "condesuyos",data:
+															{
+																condesuyos: "Hola condesuyos"
+															}
+														},islay:
+														{
+															id: "islay",'id_no_spaces': "islay",data:
+															{
+																islay: "Hola Islay"
+															}
+														},union:
+														{
+															id: "union",'id_no_spaces': "union",data:
+															{
+																union: "hola union"
+															}
+														}
+													},viewBox: [0,0,199,129],onClick: function(
+													)
+													{
+
+														if (this.data.caraveli)
+														{
+															resumen_locales_provincia(2)
+														}
+														//alert(this.data.caraveli);
+														if (this.data.union)
+														resumen_locales_provincia(11)
+
+														if (this.data.condesuyos)
+														resumen_locales_provincia(10)
+														if (this.data.castilla)
+														resumen_locales_provincia(8)
+														if (this.data.camana)
+														resumen_locales_provincia(6)
+														if (this.data.caylloma)
+														resumen_locales_provincia(9)
+														if (this.data.arequipa)
+														resumen_locales_provincia(2)
+														if (this.data.islay)
+														resumen_locales_provincia(3)
+
+													},gauge:
+													{
+														on: false,labels:
+														{
+															low: "low",high: "high"
+														},colors:
+														{
+															lowRGB:
+															{
+																r: 85,g: 0,b: 0,a: 1
+															},highRGB:
+															{
+																r: 238,g: 0,b: 0,a: 1
+															},low: "#550000",high: "#ee0000",diffRGB:
+															{
+																r: 153,g: 0,b: 0,a: 0
+															}
+														},min: 0,max: false
+													},source: "app/resources/map/aqp2.svg",title: "Aqp2",responsive: true
+												});
+										});
+								</script>
+							</div>
+
+						</div>
+						<!-- /.col -->
+
+						<div class="col-md-4">
+							<!-- Info Boxes Style 2 -->
+							<div class="info-box bg-yellow">
+								<span class="info-box-icon">
+									<i class="ion ion-ios-people">
+									</i>
+								</span>
+
+								<div class="info-box-content">
+									<span class="info-box-text">
+										Total personeros
+									</span>
+									<span id="personero_mesa_total" class="info-box-number">
+										5,200
+									</span>
+
+									<div class="progress">
+										<div class="progress-bar" style="width: 50%">
+										</div>
+									</div>
+									<span class="progress-description">
+										50% Increase in 30 Days
+									</span>
+								</div>
+								<!-- /.info-box-content -->
+							</div>
+							<!-- /.info-box -->
+							<div class="info-box bg-green">
+								<span class="info-box-icon">
+									<i class="ion ion-ios-person">
+									</i>
+								</span>
+
+								<div class="info-box-content">
+									<span class="info-box-text">
+										Personeros en Mesa
+									</span>
+									<span id="personero_mesa" class="info-box-number">
+										92,050
+									</span>
+
+									<div class="progress">
+										<div class="progress-bar" style="width: 20%">
+										</div>
+									</div>
+									<span class="progress-description">
+										20% Increase in 30 Days
+									</span>
+								</div>
+								<!-- /.info-box-content -->
+							</div>
+							<!-- /.info-box -->
+							<div class="info-box bg-red">
+								<span class="info-box-icon">
+									<i class="ion ion-ios-people-outline">
+									</i>
+								</span>
+
+								<div class="info-box-content">
+									<span   class="info-box-text">
+										Personeros Faltantes
+									</span>
+									<span id="personero_mesa_faltante" class="info-box-number">
+										114,381
+									</span>
+
+									<div class="progress">
+										<div class="progress-bar" style="width: 70%">
+										</div>
+									</div>
+									<span class="progress-description">
+										70% Increase in 30 Days
+									</span>
+								</div>
+								<!-- /.info-box-content -->
+							</div>
+							<!-- /.info-box -->
+							<div class="info-box bg-aqua">
+								<span class="info-box-icon">
+									<i class="ion ion-sad-outline">
+									</i>
+								</span>
+
+								<div class="info-box-content">
+									<span class="info-box-text">
+										Observaciones
+									</span>
+									<span class="info-box-number">
+										163,921
+									</span>
+
+									<div class="progress">
+										<div class="progress-bar" style="width: 40%">
+										</div>
+									</div>
+									<span class="progress-description">
+										Mesas Observadas
+									</span>
+								</div>
+								<!-- /.info-box-content -->
+							</div>
+							<!-- /.info-box -->
+
+
+
+						</div>
+						<!-- /.col -->
+					</div>
+					<!-- /.row -->
+
+					<div class="row">
+						<div class="box-footer">
+							<div class="row">
+								<div class="col-sm-4 col-xs-12">
+									<div class="description-block border-right">
+										<span class="description-percentage text-green">
+											100%
+										</span>
+										<h5 id="total_locales" class="description-header">
+
+										</h5>
+										<span class="description-text">
+											TOTAL LOCALES
+										</span>
+									</div>
+									<!-- /.description-block -->
+								</div>
+								<!-- /.col -->
+								<div class="col-sm-4 col-xs-12">
+									<div class="description-block border-right">
+										<span class="description-percentage text-green">
+											<div id="porcentaje_asignado">
+											</div>
+										</span>
+										<h5 id="local_ocupado"  class="description-header">
+
+										</h5>
+										<span class="description-text">
+											LOCALES ASIGNADOS
+										</span>
+									</div>
+									<!-- /.description-block -->
+								</div>
+								<!-- /.col -->
+								<div class="col-sm-4 col-xs-12">
+									<div class="description-block border-right">
+										<span class="description-percentage text-red">
+											<div id="porcentaje_no_asignado">
+											</div>
+										</span>
+										<h5 id="local_no_asignado" class="description-header">
+										</h5>
+										<span class="description-text">
+											LOCALES NO ASIGNADOS
+										</span>
+									</div>
+									<!-- /.description-block -->
+								</div>
+								<!-- /.col -->
+							</div>
+							<!-- /.row -->
+						</div>
+					</div>
+
+
+
+					<!-- /.col -->
+
+
+				</div>
+				<!-- /.box-body -->
+			</div>
+			<!-- /.box -->
+		</div>
+		<!-- /.col -->
+
+	</div>
+	<!-- /.row -->
+</section>
+
+<!--[/main]-->
